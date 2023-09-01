@@ -1,0 +1,69 @@
+# Application Quickstart
+
+Alpha Access Disclaimer: Thank you for your interest in Stateless! As we're currently in our alpha phase, all new application sign-ups are added to a waitlist. Once your application is approved and you gain access, you'll be able to utilize this guide. We appreciate your patience.
+
+---
+
+This guide will walk you through the essentials of getting started with Stateless, from account creation to sending an initial API request.
+
+## Create an Account and API Key
+
+Stateless offers a streamlined process for account creation. You can create an account and log in using GitHub Single Sign-On (SSO).
+
+To create an account and generate an API key:
+
+1. Visit [app.stateless.solutions](https://app.stateless.solutions)
+2. Select "Sign Up" using GitHub SSO
+3. Authorize Stateless to access your GitHub account
+4. After successful authorization, you'll be logged into your Stateless account
+5. Navigate to the ‘API Keys’ table on the ‘Account’ page
+6. Click on 'Create API Key'
+7. Label your key for easy identification
+8. Save the generated key in a secure location
+
+Having an account with Stateless is mandatory for sending requests. The account allows you to manage billing, server resources, and more.
+
+## Install Stateless
+
+Stateless provides a full Python package for easy installation. To install the Python package, run the following command in your terminal:
+
+```bash
+pip install stateless
+```
+
+## Configure a Provider Bucket
+
+One of the key features of Stateless is the ability to select and manage the blockchain nodes (providers) that service your requests. Here's how to set up your bucket:
+
+- List Providers: Check available providers using `stateless-cli provider list`.
+- Build Bucket: Start adding providers to your bucket with `stateless-cli add bucket`.
+
+For a detailed guide on bucket management, read more [here](link to Selecting Service Providers guide).
+
+## Send a Request
+
+Now that you've set up your environment, you can use the Stateless API to make your first request. Stateless provides the following supported blockchain endpoints:
+
+- Ethereum: [https://app.stateless.solutions/ethereum](https://app.stateless.solutions/ethereum)
+- Optimism: [https://app.stateless.solutions/optimism](https://app.stateless.solutions/optimism)
+- Arbitrum: [https://app.stateless.solutions/arbitrum](https://app.stateless.solutions/arbitrum)
+- Polygon: [https://app.stateless.solutions/polygon](https://app.stateless.solutions/polygon)
+- Binance: [https://app.stateless.solutions/binance](https://app.stateless.solutions/binance)
+
+With any available endpoint, you can proceed to make a request. In this example, you can quickly fetch the latest Ethereum block:
+
+```bash
+curl -X POST "https://app.stateless.solutions/ethereum" -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_blockNumber","id":1}'
+```
+
+After sending the request, you should receive a JSON response that contains the latest Ethereum block number.
+
+See the [API Reference](https://app.stateless.solutions/apireference) for more details.
+
+## Complimentary Compute Credits
+
+Every new Stateless account is credited with 10 million complimentary compute credits. This allows users to explore and utilize Stateless services without immediate cost. This initial balance aims to offer a smooth introduction to Stateless for developers and businesses alike. However, once these complimentary credits are depleted, users must purchase additional compute credits to continue making API requests.
+
+## Next Steps
+
+For a deeper dive into our offerings, tailored optimizations, provider bucket management, and advanced use cases, please explore the User Guides [link] for comprehensive documentation designed to help you make the most of Stateless services.
