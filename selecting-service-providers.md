@@ -10,35 +10,33 @@ When an application dispatches a request, it's not broadcasted arbitrarily. Inst
 
 Applications can construct these buckets via the Stateless CLI, using the following commands:
 
-### Listing Providers
+### Viewing and Adding New Providers
 
-Applications can view a provider's offering name, supported blockchains, regions, and latency using the `provider list` command. This feature provides applications with the visibility they need to make informed decisions when selecting providers for their buckets. To display all providers on the Stateless network, use the following command:
-
-```bash
-stateless-cli provider list
-```
-This command displays the provider's offering name, supported blockchains, regions, and latency, helping applications make informed decisions when selecting providers for their buckets.
-
-To display all providers in a specific bucket, use the following command:
+To view and add providers to a bucket, use the `create bucket` command. 
 
 ```bash
-stateless-cli bucket list
+buckets create
 ```
-This command provides applications with a clear view of their current selection of service providers. It is especially useful when updating or modifying the list of providers in a bucket.
+This command displays an interactive list of providers, allowing a fine-tuned selection of blockchain nodes. The provider's ID, name, and supported blockchains will be displayed to help applications make informed decisions when selecting providers to service their requests.
 
-### Adding Providers
-
-To add providers to a bucket, use the `add bucket` command. This command displays an interactive list of providers, allowing a fine-tuned selection of blockchain nodes.
+For additional details about a providers services, you can view all availale offerings:
 
 ```bash
-stateless-cli add bucket
+offerings list
 ```
-### Updating Providers
+This command will return additional details such as a providers available regions and average latency by chain.
 
+### Updating Existing Providers
+
+Applications can view their current active providers in a specific bucket using the following command:
+
+```bash
+buckets list
+```
 To update the list of providers in a bucket, use the `bucket update` command.
 
 ```bash
-stateless-cli bucket update
+buckets update
 ```
 
 ### Deleting Providers
@@ -46,8 +44,7 @@ stateless-cli bucket update
 To remove a provider from the bucket, use the `bucket delete` command.
 
 ```bash
-stateless-cli bucket delete
+buckets delete
 ```
 
-For more information about managing provider buckets via the API, please see the [API reference](https://app.stateless.solutions/api-reference)
-
+For more information about managing providers via the API, please see the [API reference](https://app.stateless.solutions/api-reference)
