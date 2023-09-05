@@ -60,10 +60,6 @@ After sending the request, you should receive a JSON response that contains the 
 
 See the [API Reference](https://app.stateless.solutions/apireference) for more details.
 
-## Complimentary Compute Credits
-
-Every new Stateless account is credited with 10 million complimentary compute credits. This allows users to explore and utilize Stateless services without immediate cost. This initial balance aims to offer a smooth introduction to Stateless for developers and businesses alike. However, once these complimentary credits are depleted, users must purchase additional compute credits to continue making API requests.
-
 ## Next Steps
 
 For a deeper dive into our offerings, tailored optimizations, provider bucket management, and advanced use cases, please explore the [User Guides](https://app.stateless.solutions/documentation/user-guides) for comprehensive documentation designed to help you make the most of Stateless's services.
