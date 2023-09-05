@@ -35,25 +35,25 @@ pip install stateless
 
 One of the key features of Stateless is the ability to select and manage the blockchain nodes (providers) that service your requests. Here's how to set up your bucket:
 
-- List Providers: Check available providers using `stateless-cli provider list`.
-- Build Bucket: Start adding providers to your bucket with `stateless-cli add bucket`.
+- List Providers: Check available providers using `offerings list`.
+- Build Bucket: Start adding providers to your bucket with `buckets create`.
 
-For a detailed guide on bucket management, read more [here](link to Selecting Service Providers guide).
+For a detailed guide on bucket management, read more [here](https://app.stateless.solutions/documentation/user-guides/application-guides/selecting-service-providers).
 
 ## Send a Request
 
 Now that you've set up your environment, you can use the Stateless API to make your first request. Stateless provides the following supported blockchain endpoints:
 
-- Ethereum: [https://app.stateless.solutions/ethereum](https://app.stateless.solutions/ethereum)
-- Optimism: [https://app.stateless.solutions/optimism](https://app.stateless.solutions/optimism)
-- Arbitrum: [https://app.stateless.solutions/arbitrum](https://app.stateless.solutions/arbitrum)
-- Polygon: [https://app.stateless.solutions/polygon](https://app.stateless.solutions/polygon)
-- Binance: [https://app.stateless.solutions/binance](https://app.stateless.solutions/binance)
+- Ethereum: [https://api.stateless.solutions/ethereum](https://app.stateless.solutions/ethereum)
+- Optimism: [https://api.stateless.solutions/optimism](https://app.stateless.solutions/optimism)
+- Arbitrum: [https://api.stateless.solutions/arbitrum](https://app.stateless.solutions/arbitrum)
+- Polygon: [https://api.stateless.solutions/polygon](https://app.stateless.solutions/polygon)
+- Binance: [https://api.stateless.solutions/binance](https://app.stateless.solutions/binance)
 
 With any available endpoint, you can proceed to make a request. In this example, you can quickly fetch the latest Ethereum block:
 
 ```bash
-curl -X POST "https://app.stateless.solutions/ethereum" -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_blockNumber","id":1}'
+curl -X POST "https://app.stateless.solutions/eth/v1/<bucket_id>" -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_blockNumber","id":1}'
 ```
 
 After sending the request, you should receive a JSON response that contains the latest Ethereum block number.
@@ -66,4 +66,4 @@ Every new Stateless account is credited with 10 million complimentary compute cr
 
 ## Next Steps
 
-For a deeper dive into our offerings, tailored optimizations, provider bucket management, and advanced use cases, please explore the User Guides [link] for comprehensive documentation designed to help you make the most of Stateless services.
+For a deeper dive into our offerings, tailored optimizations, provider bucket management, and advanced use cases, please explore the [User Guides](https://app.stateless.solutions/documentation/user-guides) for comprehensive documentation designed to help you make the most of Stateless's services.
