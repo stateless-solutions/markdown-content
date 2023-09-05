@@ -53,7 +53,7 @@ Now that you've set up your environment, you can use the Stateless API to make y
 With any available endpoint, you can proceed to make a request. In this example, you can quickly fetch the latest Ethereum block:
 
 ```bash
-curl -X POST "https://app.stateless.solutions/eth/v1/<bucket_id>" -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_blockNumber","id":1}'
+curl -X POST "https://api.stateless.solutions/eth/v1/<bucket_id>" -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_blockNumber","id":1}'
 ```
 
 After sending the request, you should receive a JSON response that contains the latest Ethereum block number.
