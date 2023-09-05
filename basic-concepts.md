@@ -6,10 +6,10 @@ API services in Stateless are specifically built to provide a safe and reliable 
 
 Applications on Stateless build their custom buckets of providers to service their needs. This approach differs from conventional networks, where you have little to no control over what nodes are servicing your requests. By receiving data from multiple providers, applications on Stateless have a reliable source of truth that they control and can configure to their own tolerance thresholds.
 
-## Compute Credits
+## Blockchain Provider Buckets
 
-Instead of relying on a proprietary blockchain or a native token, Stateless introduces compute credits. Compute credits are a novel way to guarantee availability on provider servers by allowing applications to exchange stablecoins (specifically, $USDC) for these credits.
+In the Stateless middleware, a provider bucket refers to a personalized selection of blockchain nodes chosen by applications to service their requests. Unlike conventional networks where nodes are assigned randomly, provider buckets empower applications to customize their service network. Each bucket can contain multiple providers, selected based on factors like supported blockchains, regions, and latency performance.
 
-These compute credits are non-transferable ERC-20 tokens. They cannot be exchanged or traded but can only be refunded by the applications or consumed by the network for service. It's important to note that these credits are purely utility tokens, not financial instruments, designed solely to facilitate your interaction with the Stateless platform.
+When applications send requests, Stateless employs a smart routing system that directs the request to the nearest provider within the chosen bucket. This proximity-based routing minimizes latency, ensuring rapid response times and enhanced application performance.
 
-By leveraging compute credits, Stateless ensures that applications can access the computational resources they need without needing a native blockchain or token system. This innovative approach enables users to focus on building and deploying high-quality decentralized applications while Stateless takes care of the resource allocation in a transparent and predictable way.
+By harnessing the potential of provider buckets, Stateless empowers applications to construct a custom network of service providers. This approach guarantees an optimized, reliable, and highly responsive environment for decentralized applications.
