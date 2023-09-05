@@ -1,6 +1,6 @@
 # Selecting Service Providers
 
-One of the unique attributes of the Stateless network protocol is the ability for applications to select and manage the blockchain nodes that service their requests. With Stateless, applications can tailor the services they receive to their specific needs, ensuring optimal performance and reliability. This guide provides detailed instructions on how applications can view provider offerings, build and manage "provider buckets," assign weights to providers, and configure multi-signature thresholds within their buckets.
+One of the unique attributes of the Stateless protocol is the ability for applications to select and manage the blockchain nodes that service their requests. With Stateless, applications can tailor the services they receive to their specific needs, ensuring optimal performance and reliability. This guide provides detailed instructions on how applications can view provider offerings, build and manage "provider buckets," assign weights to providers, and configure multi-signature thresholds within their buckets.
 
 ## Provider Bucket Management
 
