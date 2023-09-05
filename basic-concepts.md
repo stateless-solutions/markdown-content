@@ -2,7 +2,7 @@
 
 ## Secure API Services
 
-API services in Stateless are specifically built to provide a safe and reliable data source for dApps. These services operate on a decentralized node network, adhering to our custom RPC modifications and offering signed attestations for every request they service.
+API services in Stateless are specifically built to provide a safe and reliable data source for applications. These services operate on a decentralized node network, adhering to our custom RPC modifications and offering signed attestations for every request they service.
 
 Applications on Stateless build their custom buckets of providers to service their needs. This approach differs from conventional networks, where you have little to no control over what nodes are servicing your requests. By receiving data from multiple providers, applications on Stateless have a reliable source of truth that they control and can configure to their own tolerance thresholds.
 
