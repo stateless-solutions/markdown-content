@@ -19,7 +19,7 @@ export const navItems = [
   {
     sortOrder: 2,
     route: '/documentation/get-started/basic-concepts’,
-    label: 'Overview',
+    label: 'Basic Concepts',
   },
   {
     sortOrder: 3,
@@ -60,6 +60,21 @@ export const navItems = [
     sortOrder: 10,
     route: '/documentation/user-guides/provider-guides/service-expectations-responsibilities',
     label: 'Service Expectations and Responsibilities',
+  },
+  {
+    sortOrder: 11,
+    route: '/documentation/cli',
+    label: 'CLI',
+  },
+  {
+    sortOrder: 12,
+    route: '/documentation/python-sdk',
+    label: 'Python SDK',
+  },
+  {
+    sortOrder: 13,
+    route: '/documentation/javascript-sdk',
+    label: 'JavaScript SDK',
   },
 ];
 ```
