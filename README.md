@@ -63,17 +63,17 @@ export const navItems = [
   },
   {
     sortOrder: 11,
-    route: '/documentation/cli',
+    route: '/documentation/developer-reference/cli',
     label: 'CLI',
   },
   {
     sortOrder: 12,
-    route: '/documentation/python-sdk',
+    route: '/documentation/developer-reference/python-sdk',
     label: 'Python SDK',
   },
   {
     sortOrder: 13,
-    route: '/documentation/javascript-sdk',
+    route: '/documentation/developer-reference/javascript-sdk',
     label: 'JavaScript SDK',
   },
 ];
