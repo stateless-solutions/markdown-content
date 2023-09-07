@@ -1,6 +1,6 @@
-# Application Quickstart
+# Developer Quickstart
 
-Alpha Access Disclaimer: Thank you for your interest in Stateless! As we're currently in our alpha phase, all new application sign-ups are added to a waitlist. Once your application is approved and you gain access, you'll be able to utilize this guide. We appreciate your patience.
+Alpha Access Disclaimer: Thank you for your interest in Stateless! As we're currently in our alpha phase, all new developer sign-ups are added to a waitlist. Once your account is approved and you gain access, you'll be able to utilize this guide. We appreciate your patience.
 
 ---
 
@@ -38,7 +38,7 @@ One of the key features of Stateless is the ability to select and manage the blo
 - List Providers: Check available providers using `offerings list`.
 - Build Bucket: Start adding providers to your bucket with `buckets create`.
 
-For a detailed guide on bucket management, read more [here](https://app.stateless.solutions/documentation/user-guides/application-guides/selecting-service-providers).
+For a detailed guide on bucket management, read more [here](https://app.stateless.solutions/documentation/user-guides/developer-guides/selecting-service-providers).
 
 ## Send a Request
 
