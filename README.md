@@ -28,23 +28,23 @@ export const navItems = [
   },
   {
     sortOrder: 4,
-    route: '/documentation/user-guides',
-    label: 'Provider Quickstart',
+    route: '',
+    label: 'User Guides',
   },
   {
     sortOrder: 5,
     route: '/documentation/user-guides/application-guides',
-    label: 'User Guides',
+    label: 'Application Guides',
   },
   {
     sortOrder: 6,
     route: '/documentation/user-guides/application-guides/managing-api-keys',
-    label: 'Application Guides',
+    label: 'Managing API Keys',
   },
   {
     sortOrder: 7,
     route: '/documentation/user-guides/application-guides/selecting-service-providers',
-    label: 'Managing API Keys',
+    label: 'Selecting Service Providers',
   },
   {
     sortOrder: 8,
@@ -63,16 +63,21 @@ export const navItems = [
   },
   {
     sortOrder: 11,
+    route: '',
+    label: 'Developer Reference',
+  },
+  {
+    sortOrder: 12,
     route: '/documentation/cli',
     label: 'CLI',
   },
   {
-    sortOrder: 12,
+    sortOrder: 13,
     route: '/documentation/python-sdk',
     label: 'Python SDK',
   },
   {
-    sortOrder: 13,
+    sortOrder: 14,
     route: '/documentation/javascript-sdk',
     label: 'JavaScript SDK',
   },
