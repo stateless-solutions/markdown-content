@@ -23,8 +23,8 @@ export const navItems = [
   },
   {
     sortOrder: 3,
-    route: '/documentation/get-started/application-quickstart',
-    label: 'Application Quickstart',
+    route: '/documentation/get-started/developer-quickstart',
+    label: 'Developer Quickstart',
   },
   {
     sortOrder: 4,
@@ -33,17 +33,17 @@ export const navItems = [
   },
   {
     sortOrder: 5,
-    route: '/documentation/user-guides/application-guides',
-    label: 'Application Guides',
+    route: '/documentation/user-guides/developer-guides',
+    label: 'Developer Guides',
   },
   {
     sortOrder: 6,
-    route: '/documentation/user-guides/application-guides/managing-api-keys',
+    route: '/documentation/user-guides/developer-guides/managing-api-keys',
     label: 'Managing API Keys',
   },
   {
     sortOrder: 7,
-    route: '/documentation/user-guides/application-guides/selecting-service-providers',
+    route: '/documentation/user-guides/developer-guides/selecting-service-providers',
     label: 'Selecting Service Providers',
   },
   {
@@ -102,8 +102,8 @@ export const navItems = [
   },
   {
     sortOrder: 2,
-    route: '/documentation/application-quickstart',
-    label: 'Application Quickstart',
+    route: '/documentation/developer-quickstart',
+    label: 'developer Quickstart',
   },
   {
     sortOrder: 3,
@@ -117,8 +117,8 @@ export const navItems = [
   },
   {
     sortOrder: 5,
-    route: '/documentation/applications',
-    label: 'Applications',
+    route: '/documentation/developers',
+    label: 'developers',
   },
   {
     sortOrder: 6,
@@ -154,7 +154,7 @@ export const contentData = [
       '# Overview\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..\n\n ## Getting Started \n\n - Lorem ipsum dolor sit amet \n\n - Lorem ipsum dolor sit amet \n\n - Lorem ipsum dolor sit amet \n\n - Lorem ipsum dolor sit amet \n\n - Lorem ipsum dolor sit amet \n\n - Lorem ipsum dolor sit amet \n\n# Key Concepts\n\n## API Middleware\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
   },
   {
-    name: 'application-quickstart',
+    name: 'developer-quickstart',
     content:
       '# Application Quickstart\n\nHere, you will find all the details needed to quickly get started with applications.',
   },
