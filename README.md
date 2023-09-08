@@ -1,183 +1,52 @@
 # markdown-content
 
-This repository contains the user facing documentation that populates app.stateless.solutions/documentation.
+This repository contains the user facing documentation that populates
+app.stateless.solutions/documentation.
 
-## Current Navigation
+## Navigation and Sections
 
-```bash
-export const navItems = [
-  {
-    sortOrder: 0,
-    route: '',
-    label: 'Get Started',
-  },
-  {
-    sortOrder: 1,
-    route: '/documentation/get-started/overview',
-    label: 'Overview',
-  },
-  {
-    sortOrder: 2,
-    route: '/documentation/get-started/basic-concepts’,
-    label: 'Basic Concepts',
-  },
-  {
-    sortOrder: 3,
-    route: '/documentation/get-started/developer-quickstart',
-    label: 'Developer Quickstart',
-  },
-  {
-    sortOrder: 4,
-    route: '',
-    label: 'Developer Guides',
-  },
-  {
-    sortOrder: 5,
-    route: '/documentation/developer-guides/managing-api-keys',
-    label: 'Managing API Keys',
-  },
-  {
-    sortOrder: 6,
-    route: '/documentation/developer-guides/selecting-service-providers',
-    label: 'Selecting Service Providers',
-  },
-  {
-    sortOrder: 7,
-    route: '',
-    label: 'Provider Guides',
-  },
-  {
-    sortOrder: 8,
-    route: '/documentation/provider-guides/provider-onboarding',
-    label: 'Provider Onboarding',
-  },
-  {
-    sortOrder: 9,
-    route: '/documentation/provider-guides/service-expectations-responsibilities',
-    label: 'Service Expectations and Responsibilities',
-  },
-  {
-    sortOrder: 10,
-    route: '',
-    label: 'Developer Reference',
-  },
-  {
-    sortOrder: 11,
-    route: '/documentation/developer-reference/cli',
-    label: 'CLI',
-  },
-  {
-    sortOrder: 12,
-    route: '/documentation/developer-reference/python-sdk',
-    label: 'Python SDK',
-  },
-  {
-    sortOrder: 13,
-    route: '/documentation/developer-reference/javascript-sdk',
-    label: 'JavaScript SDK',
-  },
-];
+The order of navigation categories is contained in the `SECTIONS.md` file.
+
+This file contains yaml front matter (enclosed in `---` at the top of the
+page)that only exists to define the order of the higher level sections.
+
+The only key in the frontmatter should be `"section"`, and the name for each
+category should be kept in quotes how it will display in the navigation bar.
+
+The order of the bullet list defines the order of the sections in the
+navigation bar.
+
+I.e.
+
+```yaml
+sections:
+     - "Get Started"
+     - "Developer Guides"
+     - "Provider Guides"
+     - "Deverloper Reference"
 ```
-## Expected Format
 
-```bash
-// Route should be empty string or null for headers
-// Name in contentData should match value after last "/"
+## Content
 
-export const navItems = [
-  {
-    sortOrder: 0,
-    route: '',
-    label: 'Get Started',
-  },
-  {
-    sortOrder: 1,
-    route: '/documentation/overview',
-    label: 'Overview',
-  },
-  {
-    sortOrder: 2,
-    route: '/documentation/developer-quickstart',
-    label: 'developer Quickstart',
-  },
-  {
-    sortOrder: 3,
-    route: '/documentation/provider-quickstart',
-    label: 'Provider Quickstart',
-  },
-  {
-    sortOrder: 4,
-    route: '',
-    label: 'User Guides',
-  },
-  {
-    sortOrder: 5,
-    route: '/documentation/developers',
-    label: 'developers',
-  },
-  {
-    sortOrder: 6,
-    route: '/documentation/providers',
-    label: 'Providers',
-  },
-  {
-    sortOrder: 7,
-    route: '',
-    label: 'Developer Reference',
-  },
-  {
-    sortOrder: 8,
-    route: '/documentation/cli',
-    label: 'CLI',
-  },
-  {
-    sortOrder: 9,
-    route: '/documentation/python-sdk',
-    label: 'Python SDK',
-  },
-  {
-    sortOrder: 10,
-    route: '/documentation/javascript-sdk',
-    label: 'Javascript SDK',
-  },
-];
+Every other markdown file at the root of the repo is assumed to be a content
+page. Each of these pages needs the following font matter defined:
 
-export const contentData = [
-  {
-    name: 'overview',
-    content:
-      '# Overview\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..\n\n ## Getting Started \n\n - Lorem ipsum dolor sit amet \n\n - Lorem ipsum dolor sit amet \n\n - Lorem ipsum dolor sit amet \n\n - Lorem ipsum dolor sit amet \n\n - Lorem ipsum dolor sit amet \n\n - Lorem ipsum dolor sit amet \n\n# Key Concepts\n\n## API Middleware\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-  },
-  {
-    name: 'developer-quickstart',
-    content:
-      '# Application Quickstart\n\nHere, you will find all the details needed to quickly get started with applications.',
-  },
-  {
-    name: 'provider-quickstart',
-    content:
-      '# Provider Quickstart\n\nThis section covers all you need to know about starting with providers.',
-  },
-  {
-    name: 'applications',
-    content: '# Applications\n\nDetailed user guide for applications.',
-  },
-  {
-    name: 'providers',
-    content: '# Providers\n\nLearn more about how providers work in our system.',
-  },
-  {
-    name: 'cli',
-    content: '# CLI\n\nCommand Line Interface (CLI) details and reference.',
-  },
-  {
-    name: 'python-sdk',
-    content: '# Python SDK\n\nA guide and reference for the Python Software Development Kit.',
-  },
-  {
-    name: 'javascript-sdk',
-    content:
-      '# Javascript SDK\n\nHere you can find more about the Javascript SDK, its methods, and examples.',
-  },
-];
+```yaml
+section: "Section Name as Defined in Sections"
+sortOrder: 1
+label: "Navigation Section Display Label"
+pageName: "Name of the page for the url"
 ```
+
+Important that the `section` name match a defined name as defined in the
+`SECTIONS.md` file.
+
+With a section defined, the `sortOrder` is relative only to other pages within
+that section. So if there are only 2 pages in a section, the `sortOrder` of
+those pages should be no greater than 2.
+
+The `label` defines what the Navigation bar will display.
+
+And the `pageName` should only be the final URL slug for the name of the page.
+This should not include any paths, but it should be only defined by URL safe
+parameters.
