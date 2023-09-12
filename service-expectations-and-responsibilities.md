@@ -8,7 +8,7 @@ pageName: "provider-onboarding"
 
 Data Service Providers on the Stateless network are required to abide by the
 Service Level Agreement (SLA) and follow the Standard Operating Procedure
-(SOP). The main responsibilities, as outlined in the SLA, include:
+(SOP). The main responsibilities, as outlined in the SLA, include:&nbsp;  
 
 - **Onboarding:** Adhering to the onboarding process as described in the SOP.
 - **Maintenance:** Routine updates, modifications, and enhancements to meet the
@@ -22,10 +22,10 @@ Service Level Agreement (SLA) and follow the Standard Operating Procedure
   resultant from non-compliance with the standards outlined.
 
 ## Performance Expectations
-
+&nbsp;  
 To ensure optimal service delivery, the following performance expectations have
 been established:
-
+&nbsp;  
 - Restrict the rate of request retries to no more than 5 retries within a
   30-second window.
 - Ensure that 99.9% of responses from their nodes align with the anticipated
@@ -35,21 +35,21 @@ been established:
   service, contingent upon Stateless's sole discretion.
 
 ## Monitoring and Penalties
-
+&nbsp;  
 A comprehensive system for alerting and monitoring node performance is in
 place. This system diligently tracks each provider's uptime, the accuracy of
 responses, and any anomalies or deviations from non-malicious patterns.
 Anomalies detected are automatically logged for future analysis. This ongoing
 analysis process allows for continuous refinement and enhancement of the
 monitoring system, ensuring optimal service performance and compliance with
-data provider service expectations.
+data provider service expectations.&nbsp;  
 
 Activities that jeopardize the service's availability and reliability, such as
 prolonged downtime or inaccurate responses, are subject to penalties. The exact
 repercussions of non-compliance can vary, spanning from withheld earnings to
 temporary suspensions and even potential removal from the network. The
 intensity of the penalty mirrors the magnitude and frequency of service
-disruptions.
+disruptions.&nbsp;  
 
 Stateless retains the authority to determine non-compliance individually and
 enforce penalties or service termination as deemed necessary to uphold the
