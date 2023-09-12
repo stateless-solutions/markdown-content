@@ -4,12 +4,12 @@ sortOrder: 2
 label: "Quickstart"
 pageName: "quickstart"
 ---
-# Quickstart
-
-Alpha Access Disclaimer: Thank you for your interest in Stateless! As we're
+_Alpha Access Disclaimer: Thank you for your interest in Stateless! As we're
 currently in our alpha phase, all new developer sign-ups are added to a
 waitlist. Once your account is approved and you gain access, you'll be able to
-utilize this guide. We appreciate your patience.
+utilize this guide. We appreciate your patience._
+
+# Quickstart
 
 This guide will walk you through the essentials of getting started with
 Stateless, from account creation to sending an initial API request.
