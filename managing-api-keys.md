@@ -31,7 +31,7 @@ generation, and once they are revoked, they cannot be reused.
 
 Keeping API keys secure is one of our primary goals. It's crucial to handle
 your API keys securely. Never embed API keys directly into your codebase or
-share them in any form. Here are a few best practices to consider:
+share them in any form. Here are a few best practices to consider:&nbsp;  
 
 - **Secure Storage:** API keys are sensitive and should be securely stored, not
   exposed in publicly accessible areas such as GitHub, client-side code, etc.
