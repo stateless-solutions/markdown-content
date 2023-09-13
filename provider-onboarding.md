@@ -21,17 +21,21 @@ to offer data services seamlessly.
 
 Every provider requires a dedicated account on Stateless for integration and to
 manage their cryptographic API keys, which are crucial for request-response
-signatures.&nbsp;  
+signatures.
+
+<br>
 
 ### Account Setup
-&nbsp;  
+
 1. Navigate to [app.stateless.solutions](https://app.stateless.solutions).
 2. Choose "Sign Up" and authenticate using GitHub SSO.
 3. Post-authorization, you'll gain access to your Stateless dashboard.
 
 ### API Key Pair Creation
-&nbsp;  
-On your dashboard, head over to the 'API Keys' section.&nbsp;  
+
+On your dashboard, head over to the 'API Keys' section.
+
+<br>
 
 1. Click 'Create API Key'
 2. Label your key for easy identification
