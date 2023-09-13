@@ -23,8 +23,6 @@ Every provider requires a dedicated account on Stateless for integration and to
 manage their cryptographic API keys, which are crucial for request-response
 signatures.
 
-<br>
-
 ### Account Setup
 
 1. Navigate to [app.stateless.solutions](https://app.stateless.solutions).
@@ -34,8 +32,6 @@ signatures.
 ### API Key Pair Creation
 
 On your dashboard, head over to the 'API Keys' section.
-
-<br>
 
 1. Click 'Create API Key'
 2. Label your key for easy identification
