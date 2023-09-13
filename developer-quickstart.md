@@ -17,10 +17,7 @@ Stateless, from account creation to sending an initial API request.
 ## Create an Account and API Key
 
 Stateless offers a streamlined process for account creation. You can create an
-account and log in using GitHub Single Sign-On (SSO).
-
-
-To create an account and generate an API key:
+account and log in using GitHub Single Sign-On (SSO). To create an account and generate an API key:
 
 1. Visit [app.stateless.solutions](https://app.stateless.solutions)
 2. Select "Sign Up" using GitHub SSO
