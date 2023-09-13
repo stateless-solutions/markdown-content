@@ -19,4 +19,4 @@ Stateless, as a protocol, does not rely on a native blockchain or a native
 token. Instead, it uses a system of exchange based on compute credits and
 stablecoins to ensure availability on provider servers. By using Stateless,
 developers can enjoy the benefits of blockchain technology while mitigating the
-urisks associated with data inconsistency and security.  
+risks associated with data inconsistency and security.  
