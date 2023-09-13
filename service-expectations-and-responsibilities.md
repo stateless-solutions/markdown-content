@@ -1,8 +1,8 @@
 ---
 section: "Provider Guides"
 sortOrder: 2
-label: "Provider Onboarding"
-pageName: "provider-onboarding"
+label: "Service Expections and Responsibilities"
+pageName: "service-expectations"
 ---
 # Service Expectations and Responsibilities
 
