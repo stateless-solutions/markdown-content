@@ -70,7 +70,7 @@ example, you can quickly fetch the latest Ethereum block:
 ```bash
 curl -X POST "https://api.stateless.solutions/eth/v1/<bucket_id>" -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_blockNumber","id":1}'
 ```
-
+<br/><br/>
 After sending the request, you should receive a JSON response that contains the
 latest Ethereum block number.
 <br/><br/>
