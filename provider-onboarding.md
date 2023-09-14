@@ -5,11 +5,11 @@ label: "Provider Onboarding"
 pageName: "provider-onboarding"
 ---
 
-_**Alpha Access Disclaimer:** Thank you for showing interest in becoming a data
+**Alpha Access Disclaimer:** Thank you for showing interest in becoming a data
 service provider on Stateless. At present, we're not accepting new providers
 during our alpha phase. However, if you wish to be considered for future
 integration or have any queries, please reach out to us at
-support@stateless.solutions._
+support@stateless.solutions.
 
 # Provider Onboarding
 
@@ -23,13 +23,13 @@ Every provider requires a dedicated account on Stateless for integration and to
 manage their cryptographic API keys, which are crucial for request-response
 signatures.
 
-### Account Setup
+**Account Setup**
 
 1. Navigate to [app.stateless.solutions](https://app.stateless.solutions).
 2. Choose "Sign Up" and authenticate using GitHub SSO.
 3. Post-authorization, you'll gain access to your Stateless dashboard.
 
-### API Key Pair Creation
+**API Key Pair Creation**
 
 On your dashboard, head over to the 'API Keys' section.
 
