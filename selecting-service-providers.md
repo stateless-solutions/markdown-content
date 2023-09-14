@@ -10,7 +10,7 @@ One of the unique attributes of the Stateless protocol is the ability for
 developers to select and manage the blockchain nodes that service their
 requests. With Stateless, developers can tailor the services they receive to
 their specific needs, ensuring optimal performance and reliability.  
-<br/><br/>
+
 This guide provides detailed instructions on how developers can view provider offerings,
 build and manage "provider buckets," assign weights to providers, and configure
 multi-signature thresholds within their buckets.
@@ -31,12 +31,12 @@ Application developers can construct these buckets via the Stateless CLI, using
 the following commands: 
 <br/><br/>
 **Viewing and Adding New Providers**
-<br/><br/>
-To view and add providers to a bucket, use the `create bucket` command.&nbsp;  
+To view and add providers to a bucket, use the `create bucket` command.  
 <br/><br/>
 ```bash
 buckets create
 ```
+<br/><br/>
 This command displays an interactive list of providers, allowing a fine-tuned
 selection of blockchain nodes. The provider's ID, name, and supported
 blockchains will be displayed to help developers make informed decisions when
@@ -48,31 +48,29 @@ offerings:
 ```bash
 offerings list
 ```
- 
+<br/><br/> 
 This command will return additional details such as a providers available
 regions and average latency by chain. 
 <br/><br/>
 **Updating Existing Providers**  
-<br/><br/>
 Developers can view their current active providers in a specific bucket using
 the following command
 <br/><br/>
 ```bash
 buckets list
 ```
- 
+<br/><br/>
 To update the list of providers in a bucket, use the `bucket update` command.
 <br/><br/>
 ```bash
 buckets update
 ```
- 
-**Deleting Providers**
 <br/><br/>
+**Deleting Providers**
 To remove a provider from the bucket, use the `bucket delete` command.&nbsp; 
-
+<br/><br/>
 ```bash
 buckets delete
 ```
-
+<br/><br/>
 For more information about managing providers via the API, please see the [**API reference**](https://app.stateless.solutions/api-reference)
