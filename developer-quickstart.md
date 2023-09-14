@@ -35,7 +35,7 @@ allows you to manage billing, server resources, and more.
 
 Stateless provides a full Python package for easy installation. To install the
 Python package, run the following command in your terminal:
-
+<br/><br/>
 
 ```bash
 pip install stateless
@@ -46,8 +46,7 @@ pip install stateless
 One of the key features of Stateless is the ability to select and manage the
 blockchain nodes (providers) that service your requests. Here's how to set up
 your bucket:
-
-
+<br/><br/>
 - List Providers: Check available providers using `offerings list`
 - Build Bucket: Start adding providers to your bucket with `buckets create`
 
@@ -58,8 +57,7 @@ For a detailed guide on bucket management, read more [**here**](https://app.stat
 Now that you've set up your environment, you can use the Stateless API to make
 your first request. Stateless provides the following supported blockchain
 endpoints:
-
-
+<br/><br/>
 - Ethereum: [https://api.stateless.solutions/ethereum](https://app.stateless.solutions/ethereum)
 - Optimism: [https://api.stateless.solutions/optimism](https://app.stateless.solutions/optimism)
 - Arbitrum: [https://api.stateless.solutions/arbitrum](https://app.stateless.solutions/arbitrum)
@@ -67,17 +65,15 @@ endpoints:
 - Binance: [https://api.stateless.solutions/binance](https://app.stateless.solutions/binance)
 
 With any available endpoint, you can proceed to make a request. In this
-example, you can quickly fetch the latest Ethereum block:<br>
-
+example, you can quickly fetch the latest Ethereum block:
+<br/><br/>
 ```bash
 curl -X POST "https://api.stateless.solutions/eth/v1/<bucket_id>" -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_blockNumber","id":1}'
 ```
-<br>
 
 After sending the request, you should receive a JSON response that contains the
 latest Ethereum block number.
-
-
+<br/><br/>
 See the [**API Reference**](https://app.stateless.solutions/apireference) for more details.
 
 ## Next Steps
