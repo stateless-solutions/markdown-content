@@ -8,8 +8,8 @@ pageName: "service-expectations"
 
 Data Service Providers on the Stateless network are required to abide by the
 Service Level Agreement (SLA) and follow the Standard Operating Procedure
-(SOP). The main responsibilities, as outlined in the SLA, include:&nbsp;  
-
+(SOP). The main responsibilities, as outlined in the SLA, include: 
+<br/><br/>
 - **Onboarding:** Adhering to the onboarding process as described in the SOP.
 - **Maintenance:** Routine updates, modifications, and enhancements to meet the
   evolving network demand, encompassing the specified maintenance requirements
@@ -24,7 +24,7 @@ Service Level Agreement (SLA) and follow the Standard Operating Procedure
 ## Performance Expectations 
 To ensure optimal service delivery, the following performance expectations have
 been established:
-&nbsp;  
+<br/><br/> 
 - Restrict the rate of request retries to no more than 5 retries within a
   30-second window.
 - Ensure that 99.9% of responses from their nodes align with the anticipated
@@ -41,7 +41,7 @@ Anomalies detected are automatically logged for future analysis. This ongoing
 analysis process allows for continuous refinement and enhancement of the
 monitoring system, ensuring optimal service performance and compliance with
 data provider service expectations.
-&nbsp;  
+<br/><br/>
 
 Activities that jeopardize the service's availability and reliability, such as
 prolonged downtime or inaccurate responses, are subject to penalties. The exact
@@ -49,7 +49,7 @@ repercussions of non-compliance can vary, spanning from withheld earnings to
 temporary suspensions and even potential removal from the network. The
 intensity of the penalty mirrors the magnitude and frequency of service
 disruptions.
-&nbsp;  
+<br/><br/>
 
 Stateless retains the authority to determine non-compliance individually and
 enforce penalties or service termination as deemed necessary to uphold the
