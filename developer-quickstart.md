@@ -79,7 +79,6 @@ See the [**API Reference**](https://app.stateless.solutions/apireference) for mo
 ## Next Steps
 
 For a deeper dive into our offerings, tailored optimizations, provider bucket
-management, and advanced use cases, please explore the [**Developer
-Guides**](https://app.stateless.solutions/documentation/developer-guides) for
+management, and advanced use cases, please explore the Developer Guides for
 comprehensive documentation designed to help you make the most of Stateless's
 services.
