@@ -22,7 +22,7 @@ to offer data services seamlessly.
 Every provider requires a dedicated account on Stateless for integration and to
 manage their cryptographic API keys, which are crucial for request-response
 signatures.
-
+<br/><br/>
 **Account Setup**
 
 1. Navigate to [app.stateless.solutions](https://app.stateless.solutions).
