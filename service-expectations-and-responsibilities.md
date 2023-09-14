@@ -21,8 +21,7 @@ Service Level Agreement (SLA) and follow the Standard Operating Procedure
 - **Handling Penalizations:** Responding to and addressing any penalizations
   resultant from non-compliance with the standards outlined.
 
-## Performance Expectations
-&nbsp;  
+## Performance Expectations 
 To ensure optimal service delivery, the following performance expectations have
 been established:
 &nbsp;  
@@ -34,24 +33,24 @@ been established:
   Failure to address these issues might lead to the suspension of their
   service, contingent upon Stateless's sole discretion.
 
-## Monitoring and Penalties
-&nbsp;  
+## Monitoring and Penalties 
 A comprehensive system for alerting and monitoring node performance is in
 place. This system diligently tracks each provider's uptime, the accuracy of
 responses, and any anomalies or deviations from non-malicious patterns.
 Anomalies detected are automatically logged for future analysis. This ongoing
 analysis process allows for continuous refinement and enhancement of the
 monitoring system, ensuring optimal service performance and compliance with
-data provider service expectations.&nbsp;  
+data provider service expectations.
+&nbsp;  
 
 Activities that jeopardize the service's availability and reliability, such as
 prolonged downtime or inaccurate responses, are subject to penalties. The exact
 repercussions of non-compliance can vary, spanning from withheld earnings to
 temporary suspensions and even potential removal from the network. The
 intensity of the penalty mirrors the magnitude and frequency of service
-disruptions.&nbsp;  
+disruptions.
+&nbsp;  
 
 Stateless retains the authority to determine non-compliance individually and
 enforce penalties or service termination as deemed necessary to uphold the
 network's quality standards.
-
