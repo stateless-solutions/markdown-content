@@ -19,7 +19,7 @@ Stateless, from account creation to sending an initial API request.
 Stateless offers a streamlined process for account creation. You can create an
 account and log in using GitHub Single Sign-On (SSO). To create an account and generate an API key:
 
-1. Visit [app.stateless.solutions](https://app.stateless.solutions)
+1. Visit [**app.stateless.solutions**](https://app.stateless.solutions)
 2. Select "Sign Up" using GitHub SSO
 3. Authorize Stateless to access your GitHub account
 4. After successful authorization, you'll be logged into your Stateless account
@@ -48,8 +48,8 @@ blockchain nodes (providers) that service your requests. Here's how to set up
 your bucket:
 
 
-- List Providers: Check available providers using `offerings list`.
-- Build Bucket: Start adding providers to your bucket with `buckets create`.
+- List Providers: Check available providers using `offerings list`
+- Build Bucket: Start adding providers to your bucket with `buckets create`
 
 For a detailed guide on bucket management, read more [**here**](https://app.stateless.solutions/documentation/user-guides/developer-guides/selecting-service-providers).
 
@@ -67,13 +67,12 @@ endpoints:
 - Binance: [https://api.stateless.solutions/binance](https://app.stateless.solutions/binance)
 
 With any available endpoint, you can proceed to make a request. In this
-example, you can quickly fetch the latest Ethereum block:
-
+example, you can quickly fetch the latest Ethereum block:<br>
 
 ```bash
 curl -X POST "https://api.stateless.solutions/eth/v1/<bucket_id>" -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_blockNumber","id":1}'
 ```
-
+<br>
 
 After sending the request, you should receive a JSON response that contains the
 latest Ethereum block number.
