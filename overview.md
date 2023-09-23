@@ -13,7 +13,7 @@ security for blockchain Remote Procedure Call (RPC) responses. Stateless allows
 developers to build decentralized applications (dApps) with confidence, knowing
 that they are operating within a secure, decentralized environment. For a more
 detailed overview of our approach and vision, please refer to our
-[**litepaper**](https://drive.google.com/file/d/1SxuVIhJOn8Y_J3Dj8KTQtSvv-ojMH_7V/view).
+[**litepaper**](https://static1.squarespace.com/static/6422566ec8dc0e166c11c5bd/t/6509ec0ec5096c0589d1a0a6/1695149070208/litepaper+%282%29.pdf).
 <br/><br/>
 
 Stateless, as a protocol, does not rely on a native blockchain or
