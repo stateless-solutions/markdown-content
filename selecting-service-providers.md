@@ -10,7 +10,7 @@ One of the unique attributes of the Stateless protocol is the ability for
 developers to select and manage the blockchain nodes that service their
 requests. With Stateless, developers can tailor the services they receive to
 their specific needs, ensuring optimal performance and reliability.  
-<br/><br/>
+
 This guide provides detailed instructions on how developers can view provider offerings,
 build and manage "provider buckets," assign weights to providers, and configure
 multi-signature thresholds within their buckets.
@@ -33,11 +33,11 @@ the following commands:
 **Viewing and Adding New Providers**
 <br/><br/>
 To view and add providers to a bucket, use the `create bucket` command.  
-
+<br/><br/>
 ```bash
 buckets create
 ```
-
+<br/><br/>
 This command displays an interactive list of providers, allowing a fine-tuned
 selection of blockchain nodes. The provider's ID, name, and supported
 blockchains will be displayed to help developers make informed decisions when
