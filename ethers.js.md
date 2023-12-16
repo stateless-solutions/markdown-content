@@ -32,20 +32,20 @@ After installing the SDK, you need to initialize and configure it within your Et
 
 With the Stateless SDK set up, you can start using it for typical Ethereum operations. Here are a few basic examples:
 
-### Retrieving the Current Block Number
+**Retrieving the Current Block Number**
 
 To get the current block number from the Ethereum blockchain:
-
+<br>
 ```bash
 provider.getBlockNumber()
   .then(blockNumber => console.log(`Current block number: ${blockNumber}`))
   .catch(error => console.error(error));
 ```
 
-### Getting an Account's Balance
+**Getting an Account's Balance**
 
 To check the balance of a specific Ethereum account:
-
+<br>
 ```bash
 const address = '0xYourEthereumAddress'; // Replace with the actual Ethereum address
 provider.getBalance(address)
