@@ -50,7 +50,7 @@ your bucket:
 - List Providers: Check available providers using `offerings list`
 - Build Bucket: Start adding providers to your bucket with `buckets create`
 
-For a detailed guide on bucket management, read more [**here**](https://app.stateless.solutions/documentation/user-guides/developer-guides/selecting-service-providers).
+By default, all new accounts are assigned a bucket with three independent providers. For a detailed guide on bucket management, read more [**here**](https://app.stateless.solutions/documentation/user-guides/developer-guides/selecting-service-providers).
 
 ## Send a Request
 
