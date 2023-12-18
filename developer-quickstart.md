@@ -41,17 +41,6 @@ Python package, run the following command in your terminal:
 pip install stateless
 ```
 
-## Configure a Provider Bucket
-
-One of the key features of Stateless is the ability to select and manage the
-blockchain nodes (providers) that service your requests. Here's how to set up
-your bucket:
-<br/><br/>
-- List Providers: Check available providers using `offerings list`
-- Build Bucket: Start adding providers to your bucket with `buckets create`
-
-By default, all new accounts are assigned a bucket with three independent providers. For a detailed guide on bucket management, read more [**here**](https://app.stateless.solutions/documentation/user-guides/developer-guides/selecting-service-providers).
-
 ## Send a Request
 
 Now that you've set up your environment, you can use the Stateless API to make
@@ -77,6 +66,7 @@ latest Ethereum block number.
 See the [**API Reference**](https://app.stateless.solutions/apireference) for more details.
 
 ## Next Steps
+Currently, all new accounts are assigned a bucket with three independent providers until they can be managed independently. For a detailed guide on bucket management, read more [**here**](https://app.stateless.solutions/documentation/user-guides/developer-guides/selecting-service-providers).
 
 For a deeper dive into our offerings, tailored optimizations, provider bucket
 management, and advanced use cases, please explore the Developer Guides for
