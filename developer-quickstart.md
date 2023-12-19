@@ -38,7 +38,7 @@ Python package, run the following command in your terminal:
 <br/><br/>
 
 ```bash
-pip install stateless
+pip install stateless-sdk
 ```
 
 ## Send a Request
