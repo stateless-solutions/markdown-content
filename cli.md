@@ -8,7 +8,7 @@ pageName: "cli"
 # Stateless CLI Documentation
 
 # Overview
-The Stateless CLI is a powerful command-line interface that allows you to interact with the Stateless services for managing offerings, entrypoints, buckets, and API keys. You can view the CLI code and examples in our **[public GitHub repository]**(https://github.com/stateless-solutions/stateless-sdk). 
+The Stateless CLI is a powerful command-line interface that allows you to interact with the Stateless services for managing offerings, entrypoints, buckets, and API keys. You can view the CLI code and examples in our [**public GitHub repository**](https://github.com/stateless-solutions/stateless-sdk). 
 
 ## Installing the CLI
 
