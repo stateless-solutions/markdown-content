@@ -8,7 +8,7 @@ pageName: "cli"
 # Stateless CLI Documentation
 
 # Overview
-The Stateless CLI is a powerful command-line interface that allows you to interact with the Stateless services for managing offerings, entrypoints, buckets, and API keys. You can view the CLI code and examples in our [public GitHub repository](https://github.com/stateless-solutions/stateless-sdk). 
+The Stateless CLI is a powerful command-line interface that allows you to interact with the Stateless services for managing offerings, entrypoints, buckets, and API keys. You can view the CLI code and examples in our **[public GitHub repository]**(https://github.com/stateless-solutions/stateless-sdk). 
 
 ## Installing the CLI
 
@@ -19,49 +19,49 @@ Before installing the CLI, ensure you have the following:
 
 ## Installation Steps
 The CLI is available through a Python package repository, and you can download it using pip:
-
+<br>
 ```bash
 pip install stateless-sdk
 ```
+<br>
 After installation, run the setup command to initiate the CLI. This command will also handle API key setup:
 
 ```bash
 stateless-cli
 ```
-
-During the setup, if you don't have an API key, the CLI will direct you to the Stateless API key registration page. Once you have your API key, you can set it as an environment variable for the CLI to use.
-
-Setting the environment variable with your API key can be done in different ways depending on your operating system.
-
+<br>
+During the setup, if you don't have an API key, the CLI will direct you to the Stateless API key registration page. Once you have your API key, you can set it as an environment variable for the CLI to use. Setting the environment variable with your API key can be done in different ways depending on your operating system.
+<br>
 For Unix-like operating systems (Linux, macOS): 
 
 ```bash
 export STATELESS_API_KEY='your_api_key_here'
 ```
-
+<br>
 For Windows Command Prompt:
 
 ```bash
 set STATELESS_API_KEY=your_api_key_here
 ```
-
+<br>
 For Windows PowerShell:
 
 ```bash
 $env:STATELESS_API_KEY="your_api_key_here"
 ```
+<br>
 Replace your_api_key_here with the actual API key provided by Stateless.
-
+<br>
 To check if the CLI has been installed correctly, you can run the help command:
 
 ```bash
 stateless-cli --help
 ```
-
+<br>
 This should display a list of available commands and their descriptions.
-
+<br>
 If you installed the CLI in a custom directory or it's not available globally, you might need to update your system's PATH variable to include the directory where the CLI is installed.
-
+<br>
 Once the CLI is installed and the API key is set, you can start using it to manage various aspects of the Stateless services by calling the corresponding subcommands, like stateless-cli offerings list.
 
 # API Keys
@@ -277,23 +277,23 @@ To get detailed help on a specific command, append `help` after the command name
 ```bash
 stateless-cli [command] help
 ```
-
+<br>
 For example:
 
 ```bash
 stateless-cli buckets help
 ```
-
+<br>
 Displays help for the `buckets` command, including its subcommands like list, create, update, get, and delete.
 
 ```bash
 stateless-cli offerings help
 ```
-
+<br>
 Shows detailed usage for the `offerings` command, including information on listing, creating, updating, and deleting offerings.
 
 ```bash
 stateless-cli entrypoints help
 ```
-
+<br>
 Provides help specific to the `entrypoints` command, guiding on how to manage entrypoints.
