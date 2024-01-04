@@ -52,6 +52,7 @@ $env:STATELESS_API_KEY="your_api_key_here"
 <br>
 Replace your_api_key_here with the actual API key provided by Stateless.
 <br>
+
 To check if the CLI has been installed correctly, you can run the help command:
 
 ```bash
@@ -60,9 +61,7 @@ stateless-cli --help
 <br>
 This should display a list of available commands and their descriptions.
 <br>
-If you installed the CLI in a custom directory or it's not available globally, you might need to update your system's PATH variable to include the directory where the CLI is installed.
-<br>
-Once the CLI is installed and the API key is set, you can start using it to manage various aspects of the Stateless services by calling the corresponding subcommands, like stateless-cli offerings list.
+If you installed the CLI in a custom directory or it's not available globally, you might need to update your system's PATH variable to include the directory where the CLI is installed. Once the CLI is installed and the API key is set, you can start using it to manage various aspects of the Stateless services by calling the corresponding subcommands, like stateless-cli offerings list.
 
 # API Keys
 API keys are essential for both applications and providers to interact securely with the platform by authenticating access to resources. Always handle API keys with care, keeping them confidential and using them as per the platform's best practices.
@@ -285,13 +284,13 @@ stateless-cli buckets help
 ```
 <br>
 Displays help for the `buckets` command, including its subcommands like list, create, update, get, and delete.
-
+<br>
 ```bash
 stateless-cli offerings help
 ```
 <br>
 Shows detailed usage for the `offerings` command, including information on listing, creating, updating, and deleting offerings.
-
+<br>
 ```bash
 stateless-cli entrypoints help
 ```
