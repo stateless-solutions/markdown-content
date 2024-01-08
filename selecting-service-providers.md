@@ -6,14 +6,7 @@ pageName: "selecting-service-providers"
 ---
 # Selecting Service Providers
 
-One of the unique attributes of the Stateless protocol is the ability for
-developers to select and manage the blockchain nodes that service their
-requests. With Stateless, developers can tailor the services they receive to
-their specific needs, ensuring optimal performance and reliability.  
-
-This guide provides detailed instructions on how developers can view provider offerings,
-build and manage "provider buckets," assign weights to providers, and configure
-multi-signature thresholds within their buckets.
+The Stateless protocol offers developers the unique ability to select and manage blockchain nodes that service their requests. This capability allows for tailoring services to specific needs, ensuring optimal performance and reliability.
 
 ## Provider Bucket Management
 
@@ -35,7 +28,7 @@ the following commands:
 To view and add providers to a bucket, use the `create bucket` command.  
 <br/><br/>
 ```bash
-buckets create
+stateless-cli buckets create
 ```
 <br/><br/>
 This command displays an interactive list of providers, allowing a fine-tuned
@@ -47,7 +40,7 @@ For additional details about a providers services, you can view all available
 offerings: 
 <br/><br/>
 ```bash
-offerings list
+stateless-cli offerings list
 ```
 <br/><br/> 
 This command will return additional details such as a providers available
@@ -59,13 +52,13 @@ Developers can view their current active providers in a specific bucket using
 the following command
 <br/><br/>
 ```bash
-buckets list
+stateless-cli buckets list
 ```
 <br/><br/>
 To update the list of providers in a bucket, use the `bucket update` command.
 <br/><br/>
 ```bash
-buckets update
+stateless-cli buckets update
 ```
 <br/><br/>
 **Deleting Providers**
@@ -73,7 +66,7 @@ buckets update
 To remove a provider from the bucket, use the `bucket delete` command.&nbsp; 
 <br/><br/>
 ```bash
-buckets delete
+stateless-cli buckets delete
 ```
 <br/><br/>
 For more information about managing providers via the API, please see the [**API reference**](https://app.stateless.solutions/api-reference)
