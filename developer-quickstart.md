@@ -25,8 +25,8 @@ account and log in using GitHub Single Sign-On (SSO). To create an account and g
 4. After successful authorization, you'll be logged into your Stateless account
 5. Navigate to the ‘API Keys’ table on the ‘Account’ page
 6. Click on 'Create API Key'
-7. Label your key for easy identification
-8. Save the generated key in a secure location
+7. Label your key for easy identification and set an expiration date
+8. Save the generated key in a secure location as it will not be displayed after creation
 
 Having an account with Stateless is mandatory for sending requests. The account
 allows you to manage billing, server resources, and more.
@@ -41,9 +41,18 @@ Python package, run the following command in your terminal:
 pip install stateless-sdk
 ```
 
+## Select Providers
+One of the key features of Stateless is the ability to select and manage the blockchain nodes (Providers) that service your requests. Using the CLI, run the create bucket command:
+
+```bash
+stateless-cli buckets create
+```
+
+Follow the interactive prompts to enter a name for your bucket and select the blockchain and Provider Offerings to send your requests to. For a detailed guide on bucket management, see the [**Selecting Service Providers**](https://app.stateless.solutions/documentation/selecting-service-providers).
+
 ## Send a Request
 
-Now that you've set up your environment, you can use the Stateless API to make
+Now that you've set up your environment and built your Provider bucket, you can use the Stateless API to make
 your first request. Stateless provides the following supported blockchain
 endpoints:
 <br/><br/>
@@ -69,6 +78,4 @@ See the [**API Reference**](https://app.stateless.solutions/apireference) for mo
 Currently, all new accounts are assigned a bucket with three independent providers until they can be managed independently. For a detailed guide on bucket management, read more [**here**](https://app.stateless.solutions/documentation/user-guides/developer-guides/selecting-service-providers).
 <br>
 For a deeper dive into our offerings, tailored optimizations, provider bucket
-management, and advanced use cases, please explore the Developer Guides for
-comprehensive documentation designed to help you make the most of Stateless's
-services.
+management, and advanced use cases, please explore the Developer Guides.
