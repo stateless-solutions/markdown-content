@@ -4,10 +4,7 @@ sortOrder: 2
 label: "Quickstart"
 pageName: "quickstart"
 ---
-**Alpha Access Disclaimer:** Thank you for your interest in Stateless! As we're
-currently in our alpha phase, all new developer sign-ups are added to a
-waitlist. Once your account is approved and you gain access, you'll be able to
-utilize this guide. We appreciate your patience.
+**Beta Access Disclaimer:** Thank you for exploring our beta release! Should you experience any service disruptions or have insights to share, reach out at support@stateless.solutions.
 
 # Quickstart
 
