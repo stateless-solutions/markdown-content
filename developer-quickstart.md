@@ -30,8 +30,7 @@ allows you to manage billing, server resources, and more.
 
 ## Install Stateless
 
-Stateless provides a full Python package for easy installation. To install the
-Python package, run the following command in your terminal:
+Stateless provides a full Python package for easy installation. Please make sure you have Python 3.10 or later and pip before proceeding. To install the Python package, run the following command in your terminal:
 <br/><br/>
 
 ```bash
