@@ -52,7 +52,10 @@ Now that you've set up your environment and built your Provider bucket, you can 
 your first request. Stateless provides the following supported blockchain
 endpoints:
 <br/><br/>
+**Active**
 - Ethereum: [https://api.stateless.solutions/ethereum](https://app.stateless.solutions/ethereum)
+<br>
+**Coming soon**
 - Optimism: [https://api.stateless.solutions/optimism](https://app.stateless.solutions/optimism)
 - Arbitrum: [https://api.stateless.solutions/arbitrum](https://app.stateless.solutions/arbitrum)
 - Polygon: [https://api.stateless.solutions/polygon](https://app.stateless.solutions/polygon)
