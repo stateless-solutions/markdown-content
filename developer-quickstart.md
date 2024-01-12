@@ -54,12 +54,12 @@ endpoints:
 <br/><br/>
 **Active**
 - Ethereum: [https://api.stateless.solutions/ethereum](https://app.stateless.solutions/ethereum)
+- Polygon: [https://api.stateless.solutions/polygon](https://app.stateless.solutions/polygon)
+- Optimism: [https://api.stateless.solutions/optimism](https://app.stateless.solutions/optimism)
 <br>
 
 **Coming soon**
-- Optimism: [https://api.stateless.solutions/optimism](https://app.stateless.solutions/optimism)
 - Arbitrum: [https://api.stateless.solutions/arbitrum](https://app.stateless.solutions/arbitrum)
-- Polygon: [https://api.stateless.solutions/polygon](https://app.stateless.solutions/polygon)
 - Binance: [https://api.stateless.solutions/binance](https://app.stateless.solutions/binance)
 
 With any available endpoint, you can proceed to make a request. In this
