@@ -1,8 +1,12 @@
 {
   "openapi": "3.1.0",
+  "servers": [
+	  {"url": "https://api.stateless.solutions/polygon/v1/{bucketId}",
+	  "variables": { "bucketId": {"default": "cfa75b32-9418-42de-ae32-bb567b5522cc", "description": "The ID of a Polygon Mainnet Bucket"}}
+	  }],
   "info": {
-    "title": "Ethereum JSON-RPC Specification",
-    "description": "A specification of the standard interface for Ethereum clients.",
+    "title": "Polygon's Eth JSON-RPC Specification",
+    "description": "A specification of the compatibility layer of the standard interface for Ethereum clients.",
     "license": {
       "name": "CC0-1.0",
       "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode"
