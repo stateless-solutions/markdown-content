@@ -1,10 +1,12 @@
 {
   "openapi": "3.1.0",
   "servers": [
-	  {"url": "https://api.stateless.solutions/optimism/v1/{bucketId}",
+	  { "name": "Stateless Bucket",
+	   "url": "https://api.stateless.solutions/optimism/v1/{bucketId}",
 	  "variables": { "bucketId": {"default": "f373feb1-c8e4-41c9-bb74-2c691988dd34", "description": "The ID of an Optimism Mainnet Bucket"}}
 	  },
-	  {"url": "{url}",
+	  { "name": "Custom URL",
+	  "url": "{url}",
 	  "variables": { "url": {"default": "http://localhost:8545", "description": "A custom URL"}}}
   ],
   "info": {
