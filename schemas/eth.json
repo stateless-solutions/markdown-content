@@ -5,7 +5,7 @@
 	  "variables": { "bucketId": {"default": "e9a59fdc-cae3-4682-a474-8afbd7d96bf5", "description": "The ID of an Ethereum Mainnet Bucket"}}
 	  },
 	  {"url": "https://{url}",
-	  "variables": { "bucketId": {"default": "localhost:8545", "description": "A custom URL"}}}
+	  "variables": { "url": {"default": "localhost:8545", "description": "A custom URL"}}}
   ],
   "info": {
     "title": "Ethereum JSON-RPC Specification",
