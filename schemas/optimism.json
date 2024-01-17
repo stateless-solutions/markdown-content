@@ -3,7 +3,10 @@
   "servers": [
 	  {"url": "https://api.stateless.solutions/optimism/v1/{bucketId}",
 	  "variables": { "bucketId": {"default": "f373feb1-c8e4-41c9-bb74-2c691988dd34", "description": "The ID of an Optimism Mainnet Bucket"}}
-	  }],
+	  },
+	  {"url": "https://{url}",
+	  "variables": { "bucketId": {"default": "localhost:8545", "description": "A custom URL"}}}
+  ],
   "info": {
     "title": "Optimism's Eth JSON-RPC Specification",
     "description": "A specification of the compatibility layer of the standard interface for Ethereum clients.",
