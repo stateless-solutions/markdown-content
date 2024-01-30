@@ -9,7 +9,7 @@ pageName: "overview"
 ## Introduction to Stateless
 
 Stateless is a verifiability protocol that ensures data integrity and financial
-security for decentralized data operations. Stateless allows
+security for decentralized data operations. With easily consumable standardized interfaces, Stateless APIs enable
 developers to build web3 applications (dApps) with confidence, knowing
 that they are operating within a secure, decentralized environment. For a more
 detailed overview of our approach and vision, please refer to our
