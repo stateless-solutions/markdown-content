@@ -13,7 +13,8 @@ developers to build web3 applications and access numerous services with confiden
 that they are operating within a secure, decentralized environment. For a more
 detailed overview of our approach and vision, please refer to our
 [**litepaper**](https://static1.squarespace.com/static/6422566ec8dc0e166c11c5bd/t/65b36b76c468313aacce529b/1706257270111/litepaper+%2810%29.pdf).
-<br/><br/>
+<br/>
+<br/>
 
 Stateless, as a protocol, does not rely on a native blockchain. Instead, it uses a system of exchange based on compute credits and
 stablecoins to ensure availability on provider servers. By using Stateless,
