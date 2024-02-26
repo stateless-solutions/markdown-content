@@ -71,5 +71,4 @@ After sending the request, you should receive a JSON response that contains the
 latest Ethereum block number. See the [**API Reference**](https://app.stateless.solutions/apireference) for more details.
 
 ## Next Steps
-Currently, public endpoints are assigned a bucket with 1-2 independent providers. For a detailed guide on bucket management, read more [**here**](https://app.stateless.solutions/documentation/user-guides/developer-guides/selecting-service-providers). For a deeper dive into our offerings, tailored optimizations, provider bucket
-management, and advanced use cases, please explore the Developer Guides.
+For a deeper dive into our offerings, tailored optimizations, provider bucket management, and advanced use cases, please explore the Developer Guides.
