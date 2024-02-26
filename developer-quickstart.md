@@ -44,23 +44,23 @@ One of the key features of Stateless is the ability to select and manage the blo
 stateless-cli buckets create
 ```
 
-Follow the interactive prompts to enter a name for your bucket and select the blockchain and Provider Offerings to send your requests to. For a detailed guide on bucket management, see the [**Selecting Service Providers**](https://app.stateless.solutions/documentation/selecting-service-providers).
+Follow the interactive prompts to enter a name for your bucket and select the blockchain and Provider Offerings to send your requests to. For a detailed guide on bucket management, see [**Selecting Service Providers**](https://app.stateless.solutions/documentation/selecting-service-providers).
 
 ## Send a Request
 
 Now that you've set up your environment and built your Provider bucket, you can use the Stateless API to make
-your first request. Stateless provides the following supported blockchain
+your first request. Stateless provides the following supported public
 endpoints:
 <br/><br/>
 **Active**
-- Ethereum: [https://api.stateless.solutions/ethereum](https://app.stateless.solutions/ethereum)
-- Polygon: [https://api.stateless.solutions/polygon](https://app.stateless.solutions/polygon)
-- Optimism: [https://api.stateless.solutions/optimism](https://app.stateless.solutions/optimism)
+- Ethereum: [https://api.stateless.solutions/ethereum/v1/e9a59fdc-cae3-4682-a474-8afbd7d96bf5](https://api.stateless.solutions/ethereum/v1/e9a59fdc-cae3-4682-a474-8afbd7d96bf5)
+- Polygon: [https://api.stateless.solutions/polygon/v1/cfa75b32-9418-42de-ae32-bb567b5522cc](https://api.stateless.solutions/polygon/v1/cfa75b32-9418-42de-ae32-bb567b5522cc)
+- Optimism: [https://api.stateless.solutions/optimism/v1/f373feb1-c8e4-41c9-bb74-2c691988dd34](https://api.stateless.solutions/optimism/v1/f373feb1-c8e4-41c9-bb74-2c691988dd34)
+- Arbitrum: [https://api.stateless.solutions/arbitrum-one/v1/2f299b0a-5e3e-4c22-bc6b-04b13e5b8c26](https://api.stateless.solutions/arbitrum-one/v1/2f299b0a-5e3e-4c22-bc6b-04b13e5b8c26)
 <br>
 
 **Coming soon**
-- Arbitrum: [https://api.stateless.solutions/arbitrum](https://app.stateless.solutions/arbitrum)
-- Binance: [https://api.stateless.solutions/binance](https://app.stateless.solutions/binance)
+- Base: [https://api.stateless.solutions/base](https://app.stateless.solutions/base)
 
 With any available endpoint, you can proceed to make a request. In this
 example, you can quickly fetch the latest Ethereum block:
@@ -75,7 +75,7 @@ latest Ethereum block number.
 See the [**API Reference**](https://app.stateless.solutions/apireference) for more details.
 
 ## Next Steps
-Currently, all new accounts are assigned a bucket with three independent providers until they can be managed independently. For a detailed guide on bucket management, read more [**here**](https://app.stateless.solutions/documentation/user-guides/developer-guides/selecting-service-providers).
+Currently, public endpoints are assigned a bucket with 1-2 independent providers. For a detailed guide on bucket management, read more [**here**](https://app.stateless.solutions/documentation/user-guides/developer-guides/selecting-service-providers).
 <br>
 For a deeper dive into our offerings, tailored optimizations, provider bucket
 management, and advanced use cases, please explore the Developer Guides.
