@@ -34,8 +34,8 @@ account and log in using GitHub Single Sign-On (SSO). To create an account and g
 7. Label your key for easy identification and set an expiration date
 8. Save the generated key in a secure location as it will not be displayed after creation
 
-Having an account with Stateless is mandatory for sending requests. The account
-allows you to manage billing, server resources, and more.
+Having an account with Stateless is mandatory for creating private endpoints. The account
+allows you to manage server resources, billing and more.
 
 ## Install Stateless
 
