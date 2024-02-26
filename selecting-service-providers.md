@@ -13,17 +13,14 @@ The Stateless protocol offers developers the unique ability to select and manage
 Provider buckets refer to a list of chosen blockchain nodes that application
 can send requests to. Each bucket can contain multiple providers, the selection
 of which can be based on supported blockchains, regions, latency, and other
-factors.
-<br/>
-When an application dispatches a request, it's not broadcasted arbitrarily.
+factors. When an application dispatches a request, it's not broadcasted arbitrarily.
 Instead, Stateless routes the request to the nearest provider present in the
 bucket. This proximity-based routing ensures minimal latency, enhancing the
-speed and responsiveness of the application.
-<br/>
-Application developers can construct these buckets via the Stateless CLI, using
+speed and responsiveness of the application. Application developers can construct these buckets via the Stateless CLI, using
 the following commands: 
 <br/><br/>
 **Viewing and Adding New Providers**
+<br/>
 To view and add providers to a bucket, use the `create bucket` command.  
 <br/>
 ```bash
@@ -37,7 +34,7 @@ selecting providers to service their requests.
 <br/><br/>
 For additional details about a providers services, you can view all available
 offerings: 
-<br/>
+<br/><br/>
 ```bash
 stateless-cli offerings list
 ```
@@ -46,6 +43,7 @@ This command will return additional details such as a providers available
 regions and average latency by chain. 
 <br/>
 **Updating Existing Providers**  
+<br/>
 Developers can view their current active providers in a specific bucket using
 the following command
 <br/>
