@@ -40,11 +40,11 @@ pip install stateless-sdk
 ## Select Providers
 One of the key features of Stateless is the ability to select and manage the blockchain nodes (Providers) that service your requests. Using the CLI, run the create bucket command:
 
-<br/><br/>
+<br/>
 ```bash
 stateless-cli buckets create
 ```
-<br/><br/>
+<br/>
 
 Follow the interactive prompts to enter a name for your bucket and select the blockchain and Provider Offerings to send your requests to. For a detailed guide on bucket management, see [**Selecting Service Providers**](https://app.stateless.solutions/documentation/selecting-service-providers).
 
