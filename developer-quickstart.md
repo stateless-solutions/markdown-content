@@ -31,25 +31,25 @@ allows you to manage billing, server resources, and more.
 ## Install Stateless
 
 Stateless provides a full Python package for easy installation. Please make sure you have Python 3.10 or later and pip before proceeding. To install the Python package, run the following command in your terminal:
-<br>
+<br/>
 ```bash
 pip install stateless-sdk
 ```
-<br>
+<br/>
 ## Select Providers
 One of the key features of Stateless is the ability to select and manage the blockchain nodes (Providers) that service your requests. Using the CLI, run the create bucket command:
-<br>
+<br/>
 ```bash
 stateless-cli buckets create
 ```
-<br>
+<br/>
 
 Follow the interactive prompts to enter a name for your bucket and select the blockchain and Provider Offerings to send your requests to. For a detailed guide on bucket management, see [**Selecting Service Providers**](https://app.stateless.solutions/documentation/selecting-service-providers).
 
 ## Send a Request
 
 Now that you've set up your environment and built your Provider bucket, you can use the Stateless API to make
-your first request. Stateless provides the following supported public
+your first request. Stateless provides the following public
 endpoints:
 <br/><br/>
 **Active**
@@ -59,9 +59,6 @@ endpoints:
 - Arbitrum: [https://api.stateless.solutions/arbitrum-one/v1/2f299b0a-5e3e-4c22-bc6b-04b13e5b8c26](https://api.stateless.solutions/arbitrum-one/v1/2f299b0a-5e3e-4c22-bc6b-04b13e5b8c26)
 <br>
 
-**Coming soon**
-- Base: [https://api.stateless.solutions/base](https://app.stateless.solutions/base)
-
 With any available endpoint, you can proceed to make a request. In this
 example, you can quickly fetch the latest Ethereum block:
 <br/><br/>
@@ -70,9 +67,7 @@ curl -X POST "https://api.stateless.solutions/eth/v1/<bucket_id>" -H "Content-Ty
 ```
 <br/><br/>
 After sending the request, you should receive a JSON response that contains the
-latest Ethereum block number.
-<br/><br/>
-See the [**API Reference**](https://app.stateless.solutions/apireference) for more details.
+latest Ethereum block number. See the [**API Reference**](https://app.stateless.solutions/apireference) for more details.
 
 ## Next Steps
 Currently, public endpoints are assigned a bucket with 1-2 independent providers. For a detailed guide on bucket management, read more [**here**](https://app.stateless.solutions/documentation/user-guides/developer-guides/selecting-service-providers). For a deeper dive into our offerings, tailored optimizations, provider bucket
