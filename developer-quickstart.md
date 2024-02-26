@@ -43,6 +43,7 @@ One of the key features of Stateless is the ability to select and manage the blo
 stateless-cli buckets create
 ```
 </br>
+
 Follow the interactive prompts to enter a name for your bucket and select the blockchain and Provider Offerings to send your requests to. For a detailed guide on bucket management, see [**Selecting Service Providers**](https://app.stateless.solutions/documentation/selecting-service-providers).
 
 ## Send a Request
