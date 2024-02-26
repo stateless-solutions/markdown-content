@@ -58,10 +58,7 @@ Follow the interactive prompts to enter a name for your bucket and select the bl
 ## Send a Request
 
 Now that you've set up your environment and built your Provider bucket, you can use the Stateless API to make
-your first request. 
-
-With any available endpoint, you can proceed to make a request. In this
-example, you can quickly fetch the latest Ethereum block:
+your first request. With any available endpoint, you can proceed to make a request. In this example, you can quickly fetch the latest Ethereum block:
 <br/><br/>
 ```bash
 curl -X POST "https://api.stateless.solutions/eth/v1/<bucket_id>" -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"eth_blockNumber","id":1}'
