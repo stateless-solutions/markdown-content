@@ -9,9 +9,7 @@ pageName: "quickstart"
 # Quickstart
 
 This guide will walk you through the essentials of getting started with
-Stateless, from account creation to sending an initial API request.
-
-For convenience, Stateless provides the following public endpoints:
+Stateless, from account creation to sending an initial API request. For convenience, Stateless provides the following public endpoints:
 <br/><br/>
 **Active**
 - Ethereum: [https://api.stateless.solutions/ethereum/v1/e9a59fdc-cae3-4682-a474-8afbd7d96bf5](https://api.stateless.solutions/ethereum/v1/e9a59fdc-cae3-4682-a474-8afbd7d96bf5)
