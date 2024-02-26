@@ -31,11 +31,11 @@ allows you to manage billing, server resources, and more.
 ## Install Stateless
 
 Stateless provides a full Python package for easy installation. Please make sure you have Python 3.10 or later and pip before proceeding. To install the Python package, run the following command in your terminal:
-
+<br>
 ```bash
 pip install stateless-sdk
 ```
-
+<br>
 ## Select Providers
 One of the key features of Stateless is the ability to select and manage the blockchain nodes (Providers) that service your requests. Using the CLI, run the create bucket command:
 <br>
@@ -75,7 +75,5 @@ latest Ethereum block number.
 See the [**API Reference**](https://app.stateless.solutions/apireference) for more details.
 
 ## Next Steps
-Currently, public endpoints are assigned a bucket with 1-2 independent providers. For a detailed guide on bucket management, read more [**here**](https://app.stateless.solutions/documentation/user-guides/developer-guides/selecting-service-providers).
-<br>
-For a deeper dive into our offerings, tailored optimizations, provider bucket
+Currently, public endpoints are assigned a bucket with 1-2 independent providers. For a detailed guide on bucket management, read more [**here**](https://app.stateless.solutions/documentation/user-guides/developer-guides/selecting-service-providers). For a deeper dive into our offerings, tailored optimizations, provider bucket
 management, and advanced use cases, please explore the Developer Guides.
