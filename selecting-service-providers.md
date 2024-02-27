@@ -57,6 +57,7 @@ stateless-cli buckets update
 ```
 <br/><br/>
 **Deleting Providers**
+<br/>
 To remove a provider from the bucket, use the `bucket delete` command.&nbsp; 
 <br/><br/>
 ```bash
