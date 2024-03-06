@@ -86,7 +86,7 @@ The update command allows users to modify the details of an existing API key. Th
 ## Retrieve API key details
 
 ```bash
-stateless-cli api-keys get 
+stateless-cli api-keys view 
 ```
 
 Users can fetch details about a specific API key using this command. The CLI will prompt the user to select an API key, and then display its details.
@@ -185,7 +185,7 @@ This command allows users to modify the details of an existing bucket. The CLI w
 ## Retrieve Bucket Details
 
 ```bash
-stateless-cli buckets get <bucket_id>
+stateless-cli buckets view <bucket_id>
 ```
 
 Fetches detailed information about a specific Bucket based on its UUID. The CLI will prompt the user to select a bucket, and the output will display detailed information about the Bucket, including its ID, name, associated chain, and offerings.
@@ -235,7 +235,7 @@ Retrieves and lists all entrypoints associated with a specific offering. Users c
 ## Retrieve an entrypoint
 
 ```bash
-stateless-cli entrypoints get <entrypoint_id>
+stateless-cli entrypoints view <entrypoint_id>
 ```
 
 Fetches information about a specific entrypoint. The CLI will prompt the user to select an entrypoint, and the output will display a JSON-formatted output detailing the entrypoint's configuration.
@@ -304,7 +304,7 @@ For example:
 stateless-cli buckets help
 ```
 <br>
-Displays help for the `buckets` command, including its subcommands like list, create, update, get, and delete.
+Displays help for the `buckets` command, including its subcommands like list, create, update, view, and delete.
 <br>
 ```bash
 stateless-cli offerings help
