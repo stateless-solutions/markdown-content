@@ -5,7 +5,7 @@ label: "Provider Onboarding"
 pageName: "provider-onboarding"
 ---
 
-**Alpha Access Disclaimer:** Thank you for showing interest in becoming a data
+**Beta Access Disclaimer:** Thank you for showing interest in becoming a data
 service provider on Stateless. At present, we're not accepting new providers
 during our alpha phase. However, if you wish to be considered for future
 integration or have any queries, please reach out to us at
