@@ -8,7 +8,7 @@ pageName: "javascript-sdk"
 # Stateless Ethers.js SDK Reference
 
 ## Overview
-The Stateless SDK enhances Ethereum-based application development by providing a specialized interface for Ethers.js library integrations. It enables direct interaction with Stateless HTTP API endpoints, facilitating efficient access to verified data and transaction execution. You can see the full SDK code [**here**](https://github.com/stateless-solutions/ethers.js).
+The Stateless SDK enhances Ethereum-based application development by providing a specialized interface for Ethers.js library integrations. It enables direct interaction with Stateless HTTP API endpoints, facilitating efficient access to verified data and transaction execution. You can see the SDK code in full [**here**](https://github.com/stateless-solutions/ethers.js).
 
 ## Installation
 To install the Stateless SDK for use with Ethers.js, follow these steps:
