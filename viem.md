@@ -1,6 +1,6 @@
 ---
 section: "Developer Reference"
-sortOrder: 4
+sortOrder: 3
 label: "Viem"
 pageName: "viem"
 ---
