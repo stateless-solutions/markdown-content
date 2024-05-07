@@ -22,12 +22,18 @@ To set up the Viem SDK in your project, follow these installation steps:
 After installation, you must initialize and configure the SDK. First, import
 the necessary components from the Viem SDK:
 
+<br>
+
 ```
 const { createPublicClient, http } = require('viem-stateless');
 ```
 
+<br>
+
 Define your HTTP transport configuration tailored to your security and data
 integrity requirements:
+
+<br>
 
 ```
 const config = {
@@ -36,17 +42,23 @@ const config = {
 };
 ```
 
+<br>
 
 The `minimumRequiredAttestations` field represents how many matching responses
 are needed to accept the result.
+
+<br>
 
 The `identities` field is the list of the known providers in your bucket. You
 can see these corresponding identities when you create a new bucket, or from an
 existing one in the cli by running: `stateless-cli buckets list`.
 
+<br>
 
 Next, initialize the client with the specific blockchain network and your HTTP
 transport settings:
+
+<br>
 
 ```
 const client = createPublicClient({
@@ -54,6 +66,8 @@ const client = createPublicClient({
   transport: http('your_bucket_url', config),
 });
 ```
+
+<br>
 
 You can then continue using Viem as expected. For more information about usage,
 please refer to the [Viem documentation](https://viem.sh/docs/getting-started#2-consume-actions).
