@@ -70,7 +70,7 @@ const client = createPublicClient({
 <br>
 
 You can then continue using Viem as expected. For more information about usage,
-please refer to the [Viem documentation](https://viem.sh/docs/getting-started#2-consume-actions).
+please refer to the **[Viem documentation](https://viem.sh/docs/getting-started#2-consume-actions)**.
 
 
 
