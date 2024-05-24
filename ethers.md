@@ -45,12 +45,25 @@ Initialize the `StatelessProvider` with your specific endpoint URL:
 <br>
 
 ```
-const provider = new ethers.StatelessProvider("your_bucket_url");`
+const provider = new ethers.StatelessProvider("your_bucket_url", ['https://api.stateless.solutions'], 1);`
 ```
 
 <br>
 
 Replace `"your_bucket_url"` with the actual URL provided for your Stateless bucket.
+
+<br>
+
+The `['https://api.stateless.solutions']` parameter represents the array of
+provider identities.  You can see these corresponding identities for an
+existing bucket in the cli by running either: `stateless-cli buckets list` or
+`stateless-cli buckets view`.
+
+<br>
+
+The `1` represents the `minimumRequiredAttestations` field. This controls how
+many matching responses are needed to accept the result.
+
 
 <br>
 

@@ -50,8 +50,8 @@ are needed to accept the result.
 <br>
 
 The `identities` field is the list of the known providers in your bucket. You
-can see these corresponding identities when you create a new bucket, or from an
-existing one in the cli by running: `stateless-cli buckets list`.
+can see these corresponding identities of an existing bucket in the cli by
+running either: `stateless-cli buckets list` or `stateless-cli buckets view`.
 
 <br>
 
