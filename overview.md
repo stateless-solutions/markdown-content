@@ -8,15 +8,57 @@ pageName: "overview"
 
 ## Introduction to Stateless
 
-Stateless is a verifiability protocol for securing and enhancing decentralized data operations. With easily consumable standardized compute interfaces, Stateless APIs enable
-developers to build web3 applications and access numerous services with confidence, knowing
-that they are operating within a secure, decentralized environment. For a more
-detailed overview of our approach and vision, please refer to our
-[**litepaper**](https://static1.squarespace.com/static/6422566ec8dc0e166c11c5bd/t/65b36b76c468313aacce529b/1706257270111/litepaper+%2810%29.pdf).
-<br/>
-<br/>
+Stateless develops trustless standards designed to secure and enhance decentralized data operations. Our mission is to provide developers with the tools they need to build secure, decentralized applications through client-side verification, risk management protocols, and standardized compute interfaces.
 
-Stateless, as a protocol, does not rely on a native blockchain. Instead, it uses a system of exchange based on compute credits and
-stablecoins to ensure availability on provider servers. By using Stateless,
-developers can enjoy the benefits of decentralized technology while mitigating the
-risks associated with data inconsistencies and trust compromises.
+Stateless encompasses three key components:
+1. **Stateless API Service**: Our current product offering, verifiable APIs, allows developers to securely access and interact with blockchain data through public and private endpoints.
+2. **Stateless Verification Standard**: Robust frameworks that ensure data interactions are deterministic, auditable, and verifiable across decentralized networks.
+3. **Stateless Risk Management Protocol**: An innovative protocol designed to manage risk through permissionless dispute resolution and data integrity verification, protecting users and providing real yield through collateralized risk pools.
+
+For a more detailed overview of our approach and vision, please refer to our [**litepaper**](https://static1.squarespace.com/static/6422566ec8dc0e166c11c5bd/t/65b36b76c468313aacce529b/1706257270111/litepaper+%2810%29.pdf).
+
+## Current Product and Service
+
+### Verifiable RPC APIs
+
+Our current offering includes verifiable RPC APIs that provide a frictionless experience for application developers to secure their existing applications. These APIs support both historic and real-time verification, ensuring that inalid responses can be audited, stopped, or self-corrected as needed. Developers can select as many providers as they wish to source data from and set the number of attestations required to accept that data, similar to setting up a multisig Safe wallet. We provide both public and private endpoints alongside customized SDKs that are backward compatible with existing workflows.
+
+[**Explore Our Verifiable RPC APIs**](link-to-api-documentation)
+
+## Upcoming Services
+
+### Consumer Light Client
+
+We are developing a consumer light client that will enable trustless verification, complementing our trust-minimized and distributed verification approaches. This client will incorporate proofs, ensuring data interactions are not only secure but also trustless, further enhancing the reliability and security of decentralized applications.
+
+### AI Client
+
+In addition to our blockchain-focused solutions, we are working on an AI client to extend our verification standards to artificial intelligence applications. This client will ensure secure, verifiable interactions with AI systems, opening new possibilities for developers.
+
+## Future Protocol Developments
+
+### Distributing Stateless Verification Standards
+
+Our standards enable anyone to make decentralized data trustless and verifiable. Soon, these standards will be open-sourced and distributed through existing protocols, infrastructures, and tooling, significantly enhancing security across various decentralized applications.
+
+Stateless standards are designed for seamless integration, capable of working with or replacing protocol execution layers to enable verifiable data interactions without altering core infrastructure. They are also compatible with existing infrastructure tools and services, ensuring easy adoption and minimal disruption to current workflows.
+
+Much like SSL acts as a critical security tool for web security, Stateless serves as an essential security layer for users in decentralized environments. By distributing our verification standards through existing protocols and platforms, we effectively reach and protect end users, ensuring their interactions within decentralized applications are secure and trustworthy.
+
+### Stateless Verification Standard
+
+Our verification standards make decentralized data deterministic, auditable, and verifiable. Soon, these standards will be open-sourced and distributed through existing protocols, infrastructures, and tooling, significantly enhancing security across various decentralized applications.
+
+Stateless standards are designed for seamless integration, capable of working with or replacing protocol execution layers to enable verifiable data interactions without altering core infrastructure. They are also compatible with existing decentralized tools and services, ensuring easy adoption and minimal disruption to current workflows.
+
+Much like SSL acts as a critical security tool for web security, Stateless serves as an essential security layer for users in decentralized environments. By distributing our verification standards through existing protocols and platforms, we effectively reach and protect end users, ensuring their interactions within decentralized applications are secure and trustworthy.
+
+### Stateless Risk Management Protocol
+
+Our upcoming risk management protocol will enable anyone to leverage real-time verification and permissionless dispute resolution across any provider servicing protocols with the Stateless standard. This first-of-its-kind protocol will protect and compensate users with real yield through collateralized risk pools. Using an optimistic design, the protocol acts as a permissionless and non-taxing arbitrator that ensures that data discrepancies are remediated.
+
+To learn more about the development of our risk management protocol, please refer to our [**litepaper**](https://static1.squarespace.com/static/6422566ec8dc0e166c11c5bd/t/65b36b76c468313aacce529b/1706257270111/litepaper+%2810%29.pdf).
+
+## Conclusion
+
+By leveraging Stateless, developers can enjoy the benefits of decentralized technology while protecting their resources and users from the risks associated with data inconsistencies and trust compromises. Stay tuned for more developments as we continue to distribute and develop the Stateless protocol. 
