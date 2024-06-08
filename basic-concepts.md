@@ -16,7 +16,7 @@ distributed node network, the Stateless protocol enables efficient client-side v
 ## Data Provider Buckets
 
 A provider bucket refers to a personalized
-selection of blockchain nodes chosen by developers to service their requests.
+selection of data providers chosen by developers to service their requests.
 Unlike conventional networks where nodes are assigned randomly, provider
 buckets empower developers to customize their service network. Each bucket can
 contain multiple providers, selected based on factors like supported
