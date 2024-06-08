@@ -24,7 +24,7 @@ For a more detailed overview of our approach and vision, please refer to our [**
 
 <br>
 
-Our current offering includes verifiable RPC APIs that provide a frictionless experience for application developers to secure their existing applications. These APIs support both historic and real-time verification, ensuring that inalid responses can be audited, stopped, or self-corrected as needed. Developers can select as many providers as they wish to source data from and set the number of attestations required to accept that data, similar to setting up a multisig Safe wallet. We provide both public and private endpoints alongside customized SDKs that are backward compatible with existing workflows.
+Our current offering includes verifiable RPC APIs that provide a frictionless experience for application developers to secure their existing applications. These APIs support both historic and real-time verification, ensuring that invalid responses can be audited, stopped, or self-corrected as needed. Developers can select as many providers as they wish to source data from and set the number of attestations required to accept that data, similar to setting up a multisig Safe wallet. We provide both public and private endpoints alongside customized SDKs that are backward compatible with existing workflows.
 
 <br>
 
