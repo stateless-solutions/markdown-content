@@ -21,6 +21,7 @@ For a more detailed overview of our approach and vision, please refer to our [**
 ## Current Product and Service
 
 **Verifiable RPC APIs**
+<br>
 Our current offering includes verifiable RPC APIs that provide a frictionless experience for application developers to secure their existing applications. These APIs support both historic and real-time verification, ensuring that invalid responses can be audited, stopped, or self-corrected as needed. 
 
 <br>
@@ -34,16 +35,19 @@ Developers can select as many providers as they wish to source data from and set
 ## Upcoming Services
 
 **Consumer Light Clients**
+<br>
 We are developing consumer light clients to enable trustless verification, complementing our trust-minimized and distributed verification solutions. This client will incorporate proofs and be usable from standard client libraries.
 
 <br>
 
 **AI Client**
+<br>
 In addition to our blockchain-focused solutions, we are working on an AI client to extend our verification standards to artificial intelligence applications. This client will ensure secure, verifiable interactions with AI systems, opening new possibilities for developers.
 
 ## Future Protocol Developments
 
 **Distributing Stateless Verification Standards**
+<br>
 Our standards enable anyone to make decentralized data trustless and verifiable. Soon, these standards will be open-sourced and distributed through existing protocols, infrastructures, and tooling, significantly enhancing security across various decentralized applications.
 
 <br>
@@ -57,6 +61,7 @@ Much like SSL acts as a critical security tool for web security, Stateless serve
 <br>
 
 **Stateless Verification Standard**
+<br>
 Our verification standards make decentralized data deterministic, auditable, and verifiable. Soon, these standards will be open-sourced and distributed through existing protocols, infrastructures, and tooling, significantly enhancing security across various decentralized applications.
 
 <br>
@@ -70,6 +75,7 @@ Much like SSL acts as a critical security tool for web security, Stateless serve
 <br>
 
 **Stateless Risk Management Protocol**
+<br>
 Our upcoming risk management protocol will enable anyone to leverage real-time verification and permissionless dispute resolution across any provider servicing protocols with the Stateless standard. This first-of-its-kind protocol will protect and compensate users with real yield through collateralized risk pools. Using an optimistic design, the protocol acts as a permissionless and non-taxing arbitrator that ensures that data discrepancies are remediated.
 
 <br>
