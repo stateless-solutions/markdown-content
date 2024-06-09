@@ -40,7 +40,7 @@ We are developing consumer light clients to enable trustless verification, compl
 
 <br>
 
-**AI Client**
+**AI Clients**
 <br>
 In addition to our blockchain-focused solutions, we are working on an AI client to extend our verification standards to artificial intelligence applications. This client will ensure secure, verifiable interactions with AI systems, opening new possibilities for developers.
 
