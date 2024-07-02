@@ -1,0 +1,74 @@
+---
+section: "Get Startede"
+sortOrder: 3 
+label: "Consumable Light Client"
+pageName: "light-client"
+---
+# Consumable Light Client
+
+## Overview
+
+Traditionally, light clients have been out of reach from the consumer level.
+While [EIP-1186](https://eips.ethereum.org/EIPS/eip-1186) has provided a way
+for end users to receive Merkle Proofs from an Ethereum node, they've been
+limited by the fact they rely on having a trusted state root hash.  The Bucket
+offerings provide a way to actually deliver a verified a state root hash to the
+end user that doesn't have to be trusted.
+
+This combination of a verified state root hash and an independent proof provider
+allows for developers wishing to consume data from the Ethereum blockchain to
+continue doing so via their existing frameworks, while eliminating the trust
+assumptions that currently come with it.
+
+## Usage
+
+Regardless if you want to bring your own proofs or use the Stateless network
+you'll need to create a verified API bucket.
+
+Using the light client approach is nearly identical to consuming the current
+verified APIs via a bucket as described in the Quickstart section. The same
+initial steps of creating a bucket still apply.
+
+What needs to be considered when consuming proofs directly through the
+Stateless API, is that the providers in the bucket should be different from the
+provider acting as your proof provider.
+
+If you haven't created a bucket, the first step is following the Quickstart
+to create your initial bucket, which can have between 1 and 3 providers, take
+note of which ones.
+
+If you already have created a bucket, simply run `stateless-cli buckets list`
+to take note of which providers are already in your bucket.
+
+
+### Using Stateless as your Proof Provider
+
+Once you've done that, you'll want to create a second bucket with a single
+provider that isn't in already in your existing bucket, this is your Proof
+Provider.
+
+This bucket URL is your `proverUrl`.
+
+### Bring your Own Proof Provider
+
+Otherwise, you're free to bring any RPC resource that offers `eth_getProof`.
+Some examples of this include:
+
+1. A node from another commercial node provider, [Infura](https://www.infura.io/), [Alchemy](https://www.alchemy.com), etc.
+2. An RPC resource from an indexer layer, [Laconic's ipld-eth-server](https://github.com/cerc-io/ipld-eth-server), [Subsquid's RPC Proxy](https://docs.subsquid.io/cloud/resources/rpc-proxy/), etc.
+
+This RPC URL is your `proverUrl`
+
+## Connecting it to Ethers
+
+Once you have this `prover_url` either from Stateless or your own source,
+using Ethers works identical to the proof source, just with this additional
+`proverUrl` parameter in the initialization:
+
+```js
+const { ethers } = require("ethers-stateless");
+
+const provider = new ethers.StatelessProvider("your_bucket_url", ['https://api.stateless.solutions'], 1, "your_proverUrl"']);
+```
+
+See the ethers guide for more information about the other parameters.

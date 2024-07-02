@@ -64,6 +64,11 @@ existing bucket in the cli by running either: `stateless-cli buckets list` or
 The `1` represents the `minimumRequiredAttestations` field. This controls how
 many matching responses are needed to accept the result.
 
+<br>
+
+There is an additional optional parameter called `proverUrl` that allows
+for verifying Ethereum Merkle Proofs against `eth_call`. More information
+about this parameter can be found in the Consumable Light Client section.
 
 <br>
 
