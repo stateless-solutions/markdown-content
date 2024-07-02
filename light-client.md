@@ -72,8 +72,6 @@ Some examples of this include:
 1. A node from another commercial node provider, **[Infura](https://www.infura.io/)**, **[Alchemy](https://www.alchemy.com)**, etc.
 2. An RPC resource from an indexer layer, **[Laconic's ipld-eth-server](https://github.com/cerc-io/ipld-eth-server)**, **[Subsquid's RPC Proxy](https://docs.subsquid.io/cloud/resources/rpc-proxy/)**, etc.
 
-<br>
-
 This RPC URL is your `proverUrl`
 
 ## Connecting it to Ethers

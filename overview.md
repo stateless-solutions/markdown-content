@@ -32,6 +32,8 @@ Developers can select as many providers as they wish to source data from and set
 
 [**Explore Our Verifiable RPC APIs**](https://app.stateless.solutions/documentation/quickstart)
 
+<br>
+
 **Consumable Light Clients**
 <br>
 We offer a consumer light client framework to enable trustless verification, complementing our trust-minimized and distributed verification solutions. This client will incorporate proofs and be usable from standard client libraries.
@@ -41,8 +43,6 @@ We offer a consumer light client framework to enable trustless verification, com
 [**Explore Our Consumable Light Client**](https://app.stateless.solutions/documentation/light-client)
 
 ## Upcoming Services
-
-<br>
 
 **AI Clients**
 <br>
