@@ -42,7 +42,7 @@ const config = {
 };
 ```
 
-<br>
+## Parameters
 
 The `minimumRequiredAttestations` field represents how many matching responses
 are needed to accept the result.
@@ -58,7 +58,7 @@ running either: `stateless-cli buckets list` or `stateless-cli buckets view`.
 Next, initialize the client with the specific blockchain network and your HTTP
 transport settings:
 
-<br>
+## Creating the Client
 
 ```
 const client = createPublicClient({

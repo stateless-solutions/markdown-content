@@ -76,7 +76,7 @@ This RPC URL is your `proverUrl`
 
 ## Connecting it to Ethers
 
-Once you have this `prover_url` either from Stateless or your own source,
+Once you have this `proverUrl` either from Stateless or your own source,
 using Ethers works identical to the proof source, just with this additional
 `proverUrl` parameter in the initialization:
 

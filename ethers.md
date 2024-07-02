@@ -45,10 +45,14 @@ Initialize the `StatelessProvider` with your specific endpoint URL:
 <br>
 
 ```
-const provider = new ethers.StatelessProvider("your_bucket_url", ['https://api.stateless.solutions'], 1);`
+const provider = new ethers.StatelessProvider(
+    "your_bucket_url",
+    ['https://api.stateless.solutions'],
+    1
+);
 ```
 
-<br>
+## Parameters
 
 Replace `"your_bucket_url"` with the actual URL provided for your Stateless bucket.
 
