@@ -1,6 +1,6 @@
 ---
-section: "Get Startede"
-sortOrder: 3 
+section: "Get Started"
+sortOrder: 3
 label: "Consumable Light Client"
 pageName: "light-client"
 ---
