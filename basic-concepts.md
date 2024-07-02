@@ -17,6 +17,7 @@ historically or in real-time.
 
 ## Data Provider Buckets
 
+
 A provider bucket refers to a personalized selection of blockchain nodes chosen
 by developers to service their requests.  Unlike conventional networks where
 nodes are assigned randomly, provider buckets empower developers to customize
