@@ -68,7 +68,7 @@ many matching responses are needed to accept the result.
 
 There is an additional optional parameter called `proverUrl` that allows
 for verifying Ethereum Merkle Proofs against `eth_call`. More information
-about this parameter can be found in the Consumable Light Client section.
+about this parameter can be found in the **[Consumable Light Client section](https://app.stateless.solutions/documentation/light-client)**.
 
 <br>
 

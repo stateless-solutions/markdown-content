@@ -41,9 +41,10 @@ provider acting as your proof provider.
 
 <br>
 
-If you haven't created a bucket, the first step is following the Quickstart
-to create your initial bucket, which can have between 1 and 3 providers, take
-note of which ones.
+If you haven't created a bucket, the first step is following the
+**[Quickstart](https://app.stateless.solutions/documentation/quickstart)** to
+create your initial bucket, which can have between 1 and 3 providers, take note
+of which ones.
 
 <br>
 
@@ -68,8 +69,8 @@ Some examples of this include:
 
 <br>
 
-1. A node from another commercial node provider, [Infura](https://www.infura.io/), [Alchemy](https://www.alchemy.com), etc.
-2. An RPC resource from an indexer layer, [Laconic's ipld-eth-server](https://github.com/cerc-io/ipld-eth-server), [Subsquid's RPC Proxy](https://docs.subsquid.io/cloud/resources/rpc-proxy/), etc.
+1. A node from another commercial node provider, **[Infura](https://www.infura.io/)**, **[Alchemy](https://www.alchemy.com)**, etc.
+2. An RPC resource from an indexer layer, **[Laconic's ipld-eth-server](https://github.com/cerc-io/ipld-eth-server)**, **[Subsquid's RPC Proxy](https://docs.subsquid.io/cloud/resources/rpc-proxy/)**, etc.
 
 <br>
 
@@ -91,4 +92,4 @@ const provider = new ethers.StatelessProvider("your_bucket_url", ['https://api.s
 
 <br>
 
-See the ethers guide for more information about the other parameters.
+See the **[Ethers guide](https://app.stateless.solutions/documentation/ethers)** for more information about the other parameters.
