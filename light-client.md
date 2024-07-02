@@ -85,7 +85,11 @@ using Ethers works identical to the proof source, just with this additional
 ```js
 const { ethers } = require("ethers-stateless");
 
-const provider = new ethers.StatelessProvider("your_bucket_url", ['https://api.stateless.solutions'], 1, "your_proverUrl"']);
+const provider = new ethers.StatelessProvider(
+    "your_bucket_url",
+    ['https://api.stateless.solutions'],
+    1,
+    "your_proverUrl"']);
 ```
 
 <br>
