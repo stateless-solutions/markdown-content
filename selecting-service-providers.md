@@ -23,7 +23,7 @@ the following commands:
 <br/>
 To view and add providers to a bucket, use the `create bucket` command.  
 <br/>
-```bash
+```
 stateless-cli buckets create
 ```
 <br/><br/>
@@ -35,7 +35,7 @@ selecting providers to service their requests.
 For additional details about a providers services, you can view all available
 offerings: 
 <br/><br/>
-```bash
+```
 stateless-cli offerings list
 ```
 <br/><br/>
@@ -46,13 +46,13 @@ This command will return additional details such as a providers available region
 Developers can view their current active providers in a specific bucket using
 the following command
 <br/><br/>
-```bash
+```
 stateless-cli buckets list
 ```
 <br/><br/>
 To update the list of providers in a bucket, use the `bucket update` command.
 <br/><br/>
-```bash
+```
 stateless-cli buckets update
 ```
 <br/><br/>
@@ -60,7 +60,7 @@ stateless-cli buckets update
 <br/>
 To remove a provider from the bucket, use the `bucket delete` command.&nbsp; 
 <br/><br/>
-```bash
+```
 stateless-cli buckets delete
 ```
 <br/><br/>
