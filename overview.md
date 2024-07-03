@@ -36,7 +36,7 @@ Developers can select as many providers as they wish to source data from and set
 
 **Consumable Light Clients**
 <br>
-We offer a consumer light client framework to enable trustless verification, complementing our trust-minimized and distributed verification solutions. This client will incorporate proofs and be usable from standard client libraries.
+We offer a consumer light client framework to enable trustless interactions with EVM networks. Developers can consume the eth_getProof method across Ethereum, Polygon, Optimism, and Arbitrum from our custom Ethers library.
 
 <br>
 
@@ -46,7 +46,7 @@ We offer a consumer light client framework to enable trustless verification, com
 
 **AI Clients**
 <br>
-In addition to our blockchain-focused solutions, we are working on an AI client to extend our verification standards to artificial intelligence applications. This client will ensure secure, verifiable interactions with AI systems, opening new possibilities for developers.
+In addition to our blockchain-focused solutions, Stateless is developing an AI client to increase confidence in decentralized inference and automation. Extending our verification to AI execution, our clients will provide developers access to deterministic models that can be consumed and deployed across decentralized applications. Open-source models will be optimized across a variety of GPUs and weights to support a broad range of demands. 
 
 ## Future Protocol Developments
 
