@@ -8,7 +8,7 @@ pageName: "light-client"
 
 ## Overview
 
-Traditionally, light clients have been inaccessible to consumers. While **[EIP-1186]**(https://eips.ethereum.org/EIPS/eip-1186) allows end users to receive Merkle Proofs from an Ethereum node, it requires reliance on a trusted state root hash. Stateless APIs, however, provide a method to deliver a verified state root hash to the end user, eliminating the need for trust.
+Traditionally, light clients have been inaccessible to consumers. While [**EIP-1186**](https://eips.ethereum.org/EIPS/eip-1186) allows end users to receive Merkle Proofs from an Ethereum node, it requires reliance on a trusted state root hash. Stateless APIs, however, provide a method to deliver a verified state root hash to the end user, eliminating the need for trust.
 
 By combining a verified state root hash with an independent proof provider, developers can continue using their existing frameworks to consume data from the Ethereum blockchain without the current trust assumptions.
 
