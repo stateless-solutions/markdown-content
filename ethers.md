@@ -19,7 +19,7 @@ To install the Stateless SDK for use with Ethers.js, follow these steps:
 1. Open your terminal or command prompt.
 2. Navigate to the root directory of your project.
 3. Run the following command to install the Stateless version of the Ethers library:
-  `npm install ethers-stateless@6.8.1-stateless-2`
+  `npm install ethers-stateless@6.8.1-stateless-7`
 
 This command will add the necessary Stateless Ethers.js SDK files to your project.
 
